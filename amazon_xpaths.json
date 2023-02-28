@@ -8,5 +8,10 @@
 			"list_page_subcontainer": ".a-section.a-spacing-small",
 			"detail_page_subcontainer": "a-container"
 		}
+	},
+	"urls": {
+		"arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
+		"arbitrage_reverse_search": "https://app.arbitragehero.com/private/endpoint/api/",
+		"arbitrage_website": "https://arbitragehero.com"
 	}
 }
