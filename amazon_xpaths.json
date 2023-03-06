@@ -13,5 +13,6 @@
 		"arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
 		"arbitrage_reverse_search": "https://app.arbitragehero.com/private/endpoint/api/",
 		"arbitrage_website": "https://arbitragehero.com"
-	}
+	},
+	"auth_key": "ZmQxNjA2MjAtYmQzYy0xY2M0LTMxOWUtYzU1Nzg2YjFiYjlj"
 }
