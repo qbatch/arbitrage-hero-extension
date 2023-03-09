@@ -6,12 +6,12 @@
 			"detail_page_asin": "//th[contains(text(),'ASIN')]/following-sibling::td/text()",
 			"detail_page_asin_alternative": "//span[contains(text(),'ASIN')]/following-sibling::span",
 			"list_page_subcontainer": ".a-section.a-spacing-small",
-			"detail_page_subcontainer": "a-container"
+			"detail_page_subcontainer": "//div[contains(@class,'Col-bbcxoverride')]"
 		}
 	},
 	"urls": {
-		"arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
-		"arbitrage_reverse_search": "https://app.arbitragehero.com/private/endpoint/api/",
+		"arbitrage_api_endpoint": "https://api.ahonline.top/private/endpoint/api/",
+		"arbitrage_app_endpoint": "https://app.arbitragehero.com/private/endpoint/api/",
 		"arbitrage_website": "https://arbitragehero.com"
 	},
 	"auth_key": "ZmQxNjA2MjAtYmQzYy0xY2M0LTMxOWUtYzU1Nzg2YjFiYjlj"
