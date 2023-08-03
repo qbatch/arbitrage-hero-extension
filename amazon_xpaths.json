@@ -221,7 +221,7 @@
 		"itemDimension": [ "//th[contains(text(), 'Dimensions')]/following-sibling::td", "//*[contains(text(), 'Dimensions')]/following-sibling::td", "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Dimensions')]/following-sibling::span/text()" ],
 		"itemWeight": [ "//th[contains(text(), 'Item Weight')]/following-sibling::td", "//*[contains(text(), 'Item Weight')]/following-sibling::td", "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Item Weight')]/following-sibling::span/text()" ],
 		"itemTitle": [ "//span[@id='productTitle']" ], "detailPageImage": ["//div[@id = 'altImages']/ul/li[@data-csa-c-action='image-block-alt-image-hover'][1]//img/@src"],
-		"itemCategory": [ "//div[contains(@id, '-subnav')]/a[1]", "//div[contains(@id, 'wayfinding-breadcrumbs_feature')]//li[1]", "//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()" ],
+		"itemCategory": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//div[contains(@id, '-subnav')]/a[1]", "//div[contains(@id, 'wayfinding-breadcrumbs_feature')]//li[1]", "//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()" ],
 		"productDetailPageImage": ["//div[contains(@id, 'img-canvas')]/img/@src", "//div[@id = 'imageBlockCommon']//img/@src", "//div[@class='imgTagWrapper' or @class='imgTagWrapper']/img/@src", "//div[@id='img-wrapper']//img/@src"],
 		"maxCount": 4
 	}
