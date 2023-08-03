@@ -93,7 +93,7 @@
 		"closingFeeProductCategory": [ "Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks", "DVD", "DVD & Blu-ray", "CDs & Vinyl", "Prime Video - All Videos", "Digital Music", "Musical Instruments & DJ",
 									   "PC & Video Games", "Music", "Software & Computer/Video Games", "Video Game Consoles", "Video Game Accessories",
 									   "Laptops", "Tablets", "Desktops", "Monitors", "Memory & Storage", "Networking Devices", "Computer Accessories",
-									   "Computer Componenets", "Software", "All Computers & Accessories", "All PC & Mac Software" ],
+									   "Computer Componenets", "Software", "All Computers & Accessories", "All PC & Mac Software", "Movies & TV" ],
 		
 		"storageFeeRangesByMonths": { "standard": { "jan_sep": 0.87, "oct_dec": 2.40 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.40 } },
 		"referralFeeUKPercentagesWithCategory":  {  "Amazon Device Accessories": 45.9,
