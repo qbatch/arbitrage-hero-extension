@@ -175,6 +175,7 @@
 												"Computers": 8,
 												"Consumer Electronics": 8,
 												"Electronics Accessories": { "equal_or_less_than_100": 15, "greater_than_100": 8 } ,
+												"Electronics": 8,
 												"Everything Else": 15,
 												"Eyewear": 15,
 												"Fine Art": { "equal_or_less_than_100": 20, "greater_than_100_less_then_1000": 15,
