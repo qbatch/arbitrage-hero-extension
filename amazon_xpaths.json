@@ -24,8 +24,8 @@
 							  "1+ to 1.5 lb 5.40 extra 0", "1.5+ to 2 lb 5.69 extra 0", "2+ to 2.5 lb 6.10 extra 0", "2.5+ to 3 lb 6.39 extra 0",
 							  "3+ lb to 20 lb 7.17 extra 0.16" ] },
 		"apperalProducts": {
-		  "Small standard": [ "0+ to 0.25 oz or less 3.43 extra 0", "0.25+ to 0.5 oz 3.58 extra 0", "0.5+ to 0.75 oz 3.87 extra 0", "0.75+ to 1 oz 4.17 extra 0" ],
-		  "Large standard": [ "0+ to 0.25 oz or less 4.43 extra 0", "0.25+ to 0.5 oz 4.63 extra 0", "0.5+ to 0.75 oz 4.84 extra 0", "0.75+ to 1 oz 5.32 extra 0",
+			"Small standard": [ "0+ to 0.25 oz or less 3.43 extra 0", "0.25+ to 0.5 oz 3.58 extra 0", "0.5+ to 0.75 oz 3.87 extra 0", "0.75+ to 1 oz 4.15 extra 0" ],
+		  	"Large standard": [ "0+ to 0.25 oz or less 4.43 extra 0", "0.25+ to 0.5 oz 4.63 extra 0", "0.5+ to 0.75 oz 4.84 extra 0", "0.75+ to 1 oz 5.32 extra 0",
 							  "1+ to 1.5 lb 6.10 extra 0", "1.5+ to 2 lb 6.37 extra 0", "2+ to 2.5 lb 6.63 extra 0", "2.5+ to 3 lb 7.05 extra 0",
 							  "3+ lb to 20 lb 7.17 extra 0.16" ] },
 		"overSizedProduct": { "Small oversize": [ "0+ lb to 70lb charge 9.73 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
