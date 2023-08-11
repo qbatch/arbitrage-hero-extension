@@ -88,7 +88,7 @@
 								  "110.229 lb to 132.275 lb charge 44.25 extraRatePerLb 0 apply extra after 0 lb",
 								  "132.275 lb to 132.275 lb charge 44.25 extraRatePerLb 0.37 apply extra after 132.275 lb" ] },
 		"storageFeeRangesByMonthsForUK": { "standard": { "jan_sep": 0.78, "oct_dec": 1.10 }, "oversize": { "jan_sep": 0.46, "oct_dec": 0.64 } },
-		"apparelProductsCategory": [ "Backpacks, Handbags, and Luggage", "Backpacks, Handbags, & Luggage", "Baby Products", "Clothing and Accessories", "Clothing & Accessories", "Everything Else", "Footwear" ],
+		"apparelProductsCategory": [ "Backpacks, Handbags, and Luggage", "Backpacks, Handbags, & Luggage", "Baby Products", "Clothing and Accessories", "Clothing & Accessories", "Clothing, Shoes and Jewelry", "Clothing, Shoes & Jewelry", "Everything Else", "Footwear" ],
 		
 		"closingFeeProductCategory": [ "Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks", "DVD", "DVD & Blu-ray", "CDs & Vinyl", "Prime Video - All Videos", "Digital Music", "Musical Instruments & DJ",
 									   "PC & Video Games", "Music", "Software & Computer/Video Games", "Video Game Consoles", "Video Game Accessories",
@@ -220,12 +220,12 @@
 												"Watches": { "equal_or_less_than_1500": 16, "greater_than_1500": 3 } }
 	},
 	"productDetailsPageXpath": {
-		"salePrice": [ "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']", "//span[contains(@class, 'aok-offscreen')]", "//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]", "//div[contains(@data-cel-widget, 'corePriceDisplay_')]//span[contains(@class, 'priceToPay')]/span[1]", "//li[@class='swatchSelect']//span[contains(@class, 'a-color-price')]" ],
+		"salePrice": [ "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']", "//span[contains(@class, 'aok-offscreen')]", "//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]", "//div[contains(@data-cel-widget, 'corePriceDisplay_')]//span[contains(@class, 'priceToPay')]/span[1]", "//li[@class='swatchSelect']//span[contains(@class, 'a-color-price')]", "//span[contains(@class, 'a-button-selected')]//span[contains(@class, 'a-color-price')]" ],
 		"itemDimension": [ "//th[contains(text(), 'Dimensions')]/following-sibling::td", "//*[contains(text(), 'Dimensions')]/following-sibling::td", "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Dimensions')]/following-sibling::span/text()" ],
 		"itemWeight": [ "//th[contains(text(), 'Item Weight')]/following-sibling::td", "//*[contains(text(), 'Item Weight')]/following-sibling::td", "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Item Weight')]/following-sibling::span/text()" ],
 		"itemTitle": [ "//span[@id='productTitle']" ], "detailPageImage": ["//div[@id = 'altImages']/ul/li[@data-csa-c-action='image-block-alt-image-hover'][1]//img/@src"],
 		"itemCategory": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//span[contains(text(),  'Sellers Rank:')]/..", "//div[contains(@id, '-subnav')]/a[1]", "//div[contains(@id, 'wayfinding-breadcrumbs_feature')]//li[1]", "//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()" ],
 		"productDetailPageImage": ["//div[contains(@id, 'img-canvas')]/img/@src", "//div[@id = 'imageBlockCommon']//img/@src", "//div[@class='imgTagWrapper' or @class='imgTagWrapper']/img/@src", "//div[@id='img-wrapper']//img/@src"],
-		"maxCount": 5
+		"maxCount": 6
 	}
 }
