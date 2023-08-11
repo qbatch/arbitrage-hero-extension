@@ -171,6 +171,8 @@
 												"Business, Industrial, & Scientific Supplies": 12,
 												"Clothing and Accessories": 17,
 												"Clothing & Accessories": 17,
+												"Clothing, Shoes and Jewelry": 17,
+												"Clothing, Shoes & Jewelry": 17,
 												"Compact Appliances": { "equal_or_less_than_300": 15, "greater_than_300": 8 } ,
 												"Computers": 8,
 												"Consumer Electronics": 8,
