@@ -29,7 +29,7 @@
 							  "1+ to 1.5 lb 6.10 extra 0", "1.5+ to 2 lb 6.37 extra 0", "2+ to 2.5 lb 6.63 extra 0", "2.5+ to 3 lb 7.05 extra 0",
 							  "3+ lb to 20 lb 7.17 extra 0.16" ] },
 		"overSizedProduct": { "Small oversize": [ "0+ lb to 70lb charge 9.73 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
-							  "Medium oversize": [ "70+ lb to 150 lb charge 19.73 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
+							  "Medium oversize": [ "70+ lb to 150 lb charge 19.05 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
 							  "Large oversize": [ "70+ lb to 150 lb charge 89.98 extraRatePerLb 0.83 apply extra after 90 lb" ] ,
 							  "Special oversize": [ "150+ lb to 150+ lb charge 158.49 extraRatePerLb 0.83 apply extra after 90 lb" ] } ,
 		"smallAndLightItemsHash": {
