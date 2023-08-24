@@ -39,7 +39,7 @@
 		  "Large standard":  [ "0+ to 0.25 oz or less 2.66 extra 0", "0.25+ to 0.5 oz 2.77 extra 0", "0.5+ to 0.75 oz 2.94 extra 0", "0.75+ to 1 oz 3.77 extra 0",
 							  "1+ to 1.5 lb 4.42 extra 0", "1.5+ to 2 lb 4.68 extra 0", "2+ to 2.5 lb 5.19 extra 0", "2.5+ to 3 lb 5.40 extra 0" ] },
 		"smallAndLightHashForUk": {
-		  "Small Envelope": [ "0 to 0.06613 pounds or less 0.86 extra 0" ],
+		  "Small Envelope": [ "0 to 0.17637 pounds or less 0.86 extra 0" ],
 		  "Standard Envelope": [ "0 to 0.1322 pounds or less 1.03 extra 0", "0.1322 to 0.4629 pounds or less 1.21 extra 0", "0.4629 to 1.0141 pounds or less 1.59 extra 0" ],
 		  "Large Envelope": [ "0 to 2.1164 pounds or less 1.91 extra 0" ],
 		  "Extra Large Envelope": [ "0 to 2.1164 pounds or less 2.09 extra 0" ],
@@ -49,7 +49,7 @@
 		  "variableClosingFeeForBookInUK": 1,
 		  "varibaleClosingFeeHashForBooksInUK": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"],
 		  "fulfillmentFeeHashForUk": {
-			"Small Envelope": [ "0 to 0.06613 pounds or less 1.71 extra 0" ],
+			"Small Envelope": [ "0 to 0.17637 pounds or less 1.71 extra 0" ],
 			"Standard Envelope": [ "0 to 0.1322 pounds or less 1.81 extra 0", "0.1322 to 0.4629 pounds or less 1.98 extra 0", "0.4629 to 1.0141 pounds or less 2.11 extra 0" ],
 			"Large Envelope": [ "0 to 2.1164 pounds or less 2.58 extra 0" ],
 			"Extra Large Envelope": [ "0 to 2.1164 pounds or less 2.79 extra 0" ],
@@ -73,7 +73,7 @@
 								   "32.539 lb to 43.56 lb charge 8.80 extraRatePerLb 0 apply extra after 0 lb",
 								   "43.56 lb to 54.5844 lb charge 9.76 extraRatePerLb 0 apply extra after 0 lb",
 								   "54.5844 lb to 65.608 lb charge 9.77 extraRatePerLb 0 apply extra after 0 lb",
-								   "0 lb to 1.675 lb charge 9.77 extraRatePerLb 0.01 apply extra after 65.608 lb" ],
+								   "65.608 lb to 65.608 lb charge 9.77 extraRatePerLb 0.01 apply extra after 65.608 lb" ],
 			"Large Oversize": [ "0 lb to 10.4938 lb charge 10.91 extraRatePerLb 0 apply extra after 0 lb",
 								"10.4938 lb to 21.516 lb charge 11.93 extraRatePerLb 0 apply extra after 0 lb",
 								"21.516 lb to 32.539 lb charge 12.60 extraRatePerLb 0 apply extra after 0 lb",
