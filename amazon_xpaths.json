@@ -125,7 +125,7 @@
 			"Toys & Games", "Video Game Consoles", "Video Games and Gaming Accessories", "Video Games & Gaming Accessories", "Watches", "Tyres", "Luggage & Travel Accessories",
 			"Musical Instruments and AV Production", "Musical Instruments & AV Production", "Tools & Home Improvement", "Rucksacks and Handbags", "Rucksacks & Handbags", "Beer, Wine and Spirits",
 			"Beer, Wine & Spirits", "Business, Industrial & Scientific Supplies", "Business, Industrial and Scientific Supplies", "Commercial Electrical and Energy Supplies",
-			"Commercial Electrical & Energy Supplies", "Cycling Accessories", "Electronic Accessories", "Handmade", "Jewellery" ],
+			"Commercial Electrical & Energy Supplies", "Cycling Accessories", "Electronic Accessories", "Handmade", "Jewellery", "Clothing, Shoes & Jewelry", "Clothing, Shoes and Jewelry" ],
 		"referralFeeUKPercentagesWithCategory":  {  "Amazon Device Accessories": 45.9,
 										   		    "Amazon Explore": 30,
 											 		"Automotive and Powersports": { "equal_or_less_than_45": 15.3, "greater_than_45": 9.18 },
