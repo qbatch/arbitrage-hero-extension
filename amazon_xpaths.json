@@ -1,5 +1,4 @@
 {
-	"vat_flat_rate": "11",
 	"websites": {
 		"amazon": {
 			"list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]"],
@@ -263,7 +262,8 @@
 												"Laptops": 15, "Tablets": 15, "Desktops": 15, "Monitors": 15, "Memory & Storage": 15, "Networking Devices": 15,
 												"Watches": { "equal_or_less_than_1500": 16, "greater_than_1500": 3 } },
 		"outOfBoundlowFbaFeeForUK": 0.37,
-		"outOfBoundlowFbaFeeForUS": 0.77
+		"outOfBoundlowFbaFeeForUS": 0.77,
+		"vat_flat_rate": "11"
 	},
 	"productDetailsPageXpath": {
 		"salePrice": [ "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']", "//span[contains(@class, 'aok-offscreen')]", "//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]", "//div[contains(@data-cel-widget, 'corePriceDisplay_')]//span[contains(@class, 'priceToPay')]/span[1]", "//li[@class='swatchSelect']//span[contains(@class, 'a-color-price')]", "//span[contains(@class, 'a-button-selected')]//span[contains(@class, 'a-color-price')]", "//span[contains(@class, 'apexPriceToPay')]/span[1]", "//span[contains(@class, 'a-button-selected')]//span[@id='_price']/span" ],
