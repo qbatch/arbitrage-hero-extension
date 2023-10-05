@@ -131,7 +131,7 @@
 			"Musical Instruments and AV Production", "Musical Instruments & AV Production", "Tools & Home Improvement", "Rucksacks and Handbags", "Rucksacks & Handbags", "Beer, Wine and Spirits",
 			"Beer, Wine & Spirits", "Business, Industrial & Scientific Supplies", "Business, Industrial and Scientific Supplies", "Commercial Electrical and Energy Supplies",
 			"Commercial Electrical & Energy Supplies", "Cycling Accessories", "Handmade", "Jewellery", "Clothing, Shoes & Jewelry", "Clothing, Shoes and Jewelry",
-			"Electronics and Photo", "Electronics & Photo" ],
+			"Electronics and Photo", "Electronics & Photo", "DIY & Tools", "DIY and Tools" ],
 		"PortionCategoriesUSUK": ["Automotive and Powersports", "Clothing and Accessories", "Electronic Accessories", "Furniture", 
 			"Compact Appliances", "Electronics Accessories", "Fine Art", "Jewelry", "Watches"],
 		"referralFeeUKPercentagesWithCategory":  {  "Amazon Device Accessories": 45.9,
@@ -200,7 +200,9 @@
 												    "Watches": { "equal_or_less_than_225": 15.3, "greater_than_225": 5.1 },
 												    "Everything else": 15.3, "All Computers & Accessories": 15.3, "Computer Componenets": 15.3, "Computer Accessories": 15.3,
 												   	"Laptops": 15.3, "Tablets": 15.3, "Desktops": 15.3, "Monitors": 15.3, "Memory & Storage": 15.3, "Networking Devices": 15.3,
-													"defaultPercentageForReferral": 15.3
+													"defaultPercentageForReferral": 15.3,
+													"DIY & Tools": 13.26,
+													"DIY and Tools": 13.26
 												},
 		"referralFeePercentagesWithCategory": { "Amazon Device Accessories": 45,
 												"Amazon Explore": 30,
