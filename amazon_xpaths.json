@@ -120,7 +120,7 @@
 		
 		"storageFeeRangesByMonths": { "standard": { "jan_sep": 0.87, "oct_dec": 2.40 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.40 } },
 		"NonPortionCategoriesUSUK": [ "Amazon Device Accessories", "Amazon Explore", "Automotive & Powersports", "Backpacks, Handbags, and Luggage",
-			"Backpacks, Handbags, & Luggage", "Baby Products", "Beauty, Health and Personal Care", "Beauty, Health & Personal Care",
+			"Backpacks, Handbags, & Luggage", "Beauty, Health and Personal Care", "Beauty, Health & Personal Care",
 			"Business, Industrial, and Scientific Supplies", "Business, Industrial, & Scientific Supplies",
 			"Clothing & Accessories", "Computers", "Electronics","Consumer Electronics", "Everything Else", "Eyewear",
 			"Footwear", "Full-Size Appliances", "Gift Cards", "Grocery and Gourmet", "Grocery & Gourmet", "Home and Kitchen",
@@ -133,7 +133,7 @@
 			"Commercial Electrical & Energy Supplies", "Cycling Accessories", "Handmade", "Jewellery", "Clothing, Shoes & Jewelry", "Clothing, Shoes and Jewelry",
 			"Electronics and Photo", "Electronics & Photo", "DIY & Tools", "DIY and Tools", "Lighting", "Large Appliances" ],
 		"PortionCategoriesUSUK": ["Automotive and Powersports", "Clothing and Accessories", "Electronic Accessories", "Furniture", 
-			"Compact Appliances", "Electronics Accessories", "Fine Art", "Jewelry", "Watches"],
+			"Compact Appliances", "Electronics Accessories", "Fine Art", "Jewelry", "Watches", "Baby Products"],
 		"referralFeeUKPercentagesWithCategory":  {  "Amazon Device Accessories": 45.9,
 										   		    "Amazon Explore": 30,
 											 		"Automotive and Powersports": { "equal_or_less_than_45": 15.3, "greater_than_45": 9.18 },
