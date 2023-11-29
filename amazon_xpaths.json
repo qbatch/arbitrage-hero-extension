@@ -301,6 +301,11 @@
 			"//div[@id = 'imageBlockCommon']//img/@src",
 			"//div[@class='imgTagWrapper' or @class='imgTagWrapper']/img/@src",
 			"//div[@id='img-wrapper']//img/@src"],
-		"maxCount": 8
+		"maxCount": 8,
+		"detailPageoffersXpath": {
+			"offersXpath": "//div[@id = 'aod-offer-list']/div[@id = 'aod-offer']",
+			"offersPrice": ".a-offscreen",
+			"OffersFulfilmentChannel": "span.a-size-small.a-color-base"
+		}
 	}
 }
