@@ -306,7 +306,7 @@
 			"offersXpath": ["//div[@id = 'aod-offer-list']/div[@id = 'aod-offer']", "//div[@id = 'aod-offer']"],
 			"offersPrice": [".a-offscreen"],
 			"OffersFulfilmentChannel": ["span.a-size-small.a-color-base"],
-			"sellerIdXpath": ["a.a-size-small.a-link-normal"],
+			"sellerIdXpath": ["div#aod-offer-soldBy a.a-size-small.a-link-normal"],
 			"offersPathMaxCount": 2
 		}
 	}
