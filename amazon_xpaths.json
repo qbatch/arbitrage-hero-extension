@@ -307,6 +307,10 @@
 			"offersPrice": [".a-offscreen"],
 			"OffersFulfilmentChannel": ["span.a-size-small.a-color-base"],
 			"sellerIdXpath": ["div#aod-offer-soldBy a.a-size-small.a-link-normal"],
+			"buyBoxOffer": ["//div[@id = 'tab_desktop_buybox_group_1']/div[@class = 'a-box-inner']"],
+			"buyBoxSalePrice": [".a-offscreen"],
+			"buyBoxFulfillment": ["div#fulfillerInfoFeature_feature_div span.offer-display-feature-text-message"],
+			"buyBoxSeller": ["div#merchantInfoFeature_feature_div span.offer-display-feature-text-message a"],
 			"offersPathMaxCount": 2
 		}
 	}
