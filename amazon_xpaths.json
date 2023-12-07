@@ -6,7 +6,7 @@
 			"detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
 			"list_page_subcontainer": [".a-section.a-spacing-small"],
 			"detail_page_subcontainer": ["//div[contains(@class,'Col-bbcxoverride')]", "//div[@data-feature-name='desktop_buybox']", "//div[@id='desktop_buybox']"],
-			"detail_page_middle_container": ["//div[@id = 'centerCol']/div[@id = 'title_feature_div']"]
+			"detail_page_middle_container": ["//div[@id = 'centerCol']//div[@id = 'title_feature_div']"]
 		}
 	},
 	"urls": {
