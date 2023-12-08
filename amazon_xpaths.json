@@ -277,6 +277,7 @@
 		"vat_flat_rate": "11"
 	},
 	"productDetailsPageXpath": {
+		"itemBSR": [ "//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]" ],
 		"salePrice": [ "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']",
 			"//span[contains(@class, 'aok-offscreen')]",
 			"//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]",
