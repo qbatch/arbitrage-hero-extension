@@ -314,7 +314,7 @@
 			"buyBoxSalePrice": [".a-offscreen"],
 			"buyBoxFulfillment": ["div#fulfillerInfoFeature_feature_div span.offer-display-feature-text-message"],
 			"buyBoxSeller": ["div#merchantInfoFeature_feature_div span.offer-display-feature-text-message a"],
-			"offersPathMaxCount": 3
+			"offersPathMaxCount": 4
 		}
 	}
 }
