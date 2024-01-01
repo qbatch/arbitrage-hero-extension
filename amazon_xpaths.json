@@ -333,6 +333,16 @@
 			"buyBoxFulfillment": ["div#fulfillerInfoFeature_feature_div span.offer-display-feature-text-message"],
 			"buyBoxSeller": ["div#merchantInfoFeature_feature_div span.offer-display-feature-text-message a"],
 			"offersPathMaxCount": 4
-		}
+		},
+		"GoogleShoppingPaths": {
+			"allGoogleShoping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
+			"googleShoppingImage": [".xCpuod"],
+			"googleShoppingTitle": [".tAxDx"],
+			"goolgeShoppingSalePrice": [".a8Pemb.OFFNJ"],
+			"goolgeShoppingSeller": [".mnIHsc .shntl"],
+			"goolgeShoppingSellerName": [".aULzUe.IuHnof"],
+			"maxCount": 1,
+			"defaultNumberOfShopping": 20
+		  }
 	}
 }
