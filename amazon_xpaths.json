@@ -338,9 +338,9 @@
 			"allGoogleShoping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
 			"googleShoppingImage": [".ArOc1c img"],
 			"googleShoppingTitle": [".tAxDx"],
-			"goolgeShoppingSalePrice": [".a8Pemb.OFFNJ"],
+			"googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
 			"goolgeShoppingSeller": [".mnIHsc .shntl"],
-			"goolgeShoppingSellerName": [".aULzUe.IuHnof"],
+			"googleShoppingSellerName": [".aULzUe.IuHnof"],
 			"maxCount": 1,
 			"defaultNumberOfShopping": 20
 		  }
