@@ -335,11 +335,11 @@
 			"offersPathMaxCount": 4
 		},
 		"GoogleShoppingPaths": {
-			"allGoogleShoping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
+			"allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
 			"googleShoppingImage": [".ArOc1c img"],
 			"googleShoppingTitle": [".tAxDx"],
 			"googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
-			"goolgeShoppingSeller": [".mnIHsc .shntl"],
+			"googleShoppingSeller": [".mnIHsc .shntl"],
 			"googleShoppingSellerName": [".aULzUe.IuHnof"],
 			"maxCount": 1,
 			"defaultNumberOfShopping": 20
