@@ -20,19 +20,20 @@
 	"auth_key": "ZmQxNjA2MjAtYmQzYy0xY2M0LTMxOWUtYzU1Nzg2YjFiYjlj",
 	"profitCalculator": {
 		"myProducts": {
-		  "Small standard": [ "0+ to 0.25 oz or less 3.42 extra 0", "0.25+ to 0.5 oz 3.60 extra 0", "0.5+ to 0.75 oz 3.78 extra 0", "0.75+ to 1 oz 3.97 extra 0" ] ,
-		  "Large standard": [ "0+ to 0.25 oz or less 4.16 extra 0", "0.25+ to 0.5 oz 4.38 extra 0", "0.5+ to 0.75 oz 4.54 extra 0", "0.75+ to 1 oz 5.05 extra 0",
-							  "1+ to 1.5 lb 5.70 extra 0", "1.5+ to 2 lb 5.99 extra 0", "2+ to 2.5 lb 6.60 extra 0", "2.5+ to 3 lb 6.89 extra 0",
-							  "3+ lb to 20 lb 7.67 extra 0.16" ] },
-		"apperalProducts": {
-			"Small standard": [ "0+ to 0.25 oz or less 3.63 extra 0", "0.25+ to 0.5 oz 3.78 extra 0", "0.5+ to 0.75 oz 4.07 extra 0", "0.75+ to 1 oz 4.35 extra 0" ],
-		  	"Large standard": [ "0+ to 0.25 oz or less 4.73 extra 0", "0.25+ to 0.5 oz 4.93 extra 0", "0.5+ to 0.75 oz 5.14 extra 0", "0.75+ to 1 oz 5.62 extra 0",
-								"1+ to 1.5 lb 6.40 extra 0", "1.5+ to 2 lb 6.67 extra 0", "2+ to 2.5 lb 7.33 extra 0", "2.5+ to 3 lb 7.55 extra 0",
-							  "3+ lb to 20 lb 7.67 extra 0.16" ] },
-		"overSizedProduct": { "Small oversize": [ "0+ lb to 70lb charge 10.73 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
-							  "Medium oversize": [ "70+ lb to 150 lb charge 21.55 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
-							  "Large oversize": [ "70+ lb to 150 lb charge 92.48 extraRatePerLb 0.83 apply extra after 90 lb" ] ,
-							  "Special oversize": [ "150+ lb to 150+ lb charge 160.99 extraRatePerLb 0.83 apply extra after 90 lb" ] } ,
+			"Small standard": [ "0+ to 0.25 oz or less 3.22 extra 0", "0.25+ to 0.5 oz 3.40 extra 0", "0.5+ to 0.75 oz 3.58 extra 0", "0.75+ to 1 oz 3.77 extra 0" ] ,
+			"Large standard": [ "0+ to 0.25 oz or less 3.86 extra 0", "0.25+ to 0.5 oz 4.08 extra 0", "0.5+ to 0.75 oz 4.24 extra 0", "0.75+ to 1 oz 4.75 extra 0",
+								"1+ to 1.5 lb 5.40 extra 0", "1.5+ to 2 lb 5.69 extra 0", "2+ to 2.5 lb 6.10 extra 0", "2.5+ to 3 lb 6.39 extra 0",
+								"3+ lb to 20 lb 7.17 extra 0.16" ] },
+		  "apperalProducts": {
+			  "Small standard": [ "0+ to 0.25 oz or less 3.43 extra 0", "0.25+ to 0.5 oz 3.58 extra 0", "0.5+ to 0.75 oz 3.87 extra 0", "0.75+ to 1 oz 4.15 extra 0" ],
+				"Large standard": [ "0+ to 0.25 oz or less 4.43 extra 0", "0.25+ to 0.5 oz 4.63 extra 0", "0.5+ to 0.75 oz 4.84 extra 0", "0.75+ to 1 oz 5.32 extra 0",
+								  "1+ to 1.5 lb 6.10 extra 0", "1.5+ to 2 lb 6.37 extra 0", "2+ to 2.5 lb 6.83 extra 0", "2.5+ to 3 lb 7.05 extra 0",
+								"3+ lb to 20 lb 7.17 extra 0.16" ] },
+		  "overSizedProduct": { "Small oversize": [ "0+ lb to 70lb charge 9.73 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
+								"Medium oversize": [ "70+ lb to 150 lb charge 19.05 extraRatePerLb 0.42 apply extra after 1 lb" ] ,
+								"Large oversize": [ "70+ lb to 150 lb charge 89.98 extraRatePerLb 0.83 apply extra after 90 lb" ] ,
+								"Special oversize": [ "150+ lb to 150+ lb charge 158.49 extraRatePerLb 0.83 apply extra after 90 lb" ] } ,
+
 		"smallAndLightItemsHash": {
 		"smallDimensionVolumnLimit": [ 15, 12, 0.75 ],
 		"LargeDimensionVolumnLimit": [ 18, 14, 8 ],
