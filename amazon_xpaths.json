@@ -321,7 +321,7 @@
 			"//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()" ],
 		"productDetailPageImage": ["//div[contains(@id, 'img-canvas')]/img/@src",
 			"//div[@id = 'imageBlockCommon']//img/@src",
-			"//div[@class='imgTagWrapper' or @class='imgTagWrapper']/img/@src",
+			"//div[@class='imgTagWrapper' or @class='imgTagWrapper']//img/@src",
 			"//div[@id='img-wrapper']//img/@src"],
 		"maxCount": 8,
 		"detailPageoffersXpath": {
