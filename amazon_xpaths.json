@@ -345,5 +345,14 @@
 			"maxCount": 1,
 			"defaultNumberOfShopping": 20
 		  }
+	},
+	"storePage": {
+		"amzSearchXpaths": {
+			"amzSearchAsin": [ "data-asin" ],
+			"amzSearchTitle": [ "h2 > a > span" ],
+			"amzSearchImage": [ "[data-component-type='s-product-image'] img" ],
+			"amzSearchPrice": [ ".a-offscreen" ],
+			"amzSearchCount": 1
+		  }
 	}
 }
