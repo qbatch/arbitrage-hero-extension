@@ -349,6 +349,8 @@
 	},
 	"storePage": {
 		"amzSearchXpaths": {
+			"nextButtonXPaths": [ "//SPAN[@class ='s-pagination-strip']//A[contains(@class, 's-pagination-item') and contains(@class, 's-pagination-next') and contains(@class, 's-pagination-button') and contains(text(),'Next')]"],
+			"disabledNextButtonXPaths": [ "//SPAN[@class ='s-pagination-strip']//SPAN[contains(@class, 's-pagination-item') and contains(@class, 's-pagination-next') and contains(@class, 's-pagination-disabled') and contains(text(),'Next')]"],
 			"amzSearchAsin": [ "data-asin" ],
 			"amzSearchTitle": [ "h2 > a > span" ],
 			"amzSearchImage": [ "[data-component-type='s-product-image'] img" ],
