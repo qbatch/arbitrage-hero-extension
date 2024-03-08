@@ -593,6 +593,13 @@
     }
   },
   "storePage": {
+    "costPriceXPaths": [
+      "//meta[@itemprop='price']/@content",
+      "//meta[@property='og:price:amount']/@content",
+      "//span[@itemprop='price']/@content",
+      "//script[@type='application/ld+json' and contains(text(),'sku')]/text()",
+      "//script[@type='application/ld+json' and contains(text(),'SKU')]/text()"
+    ],
     "amzSearchXpaths": {
       "nextButtonXPaths": [
         "//SPAN[@class ='s-pagination-strip']//A[contains(@class, 's-pagination-item') and contains(@class, 's-pagination-next') and contains(@class, 's-pagination-button') and contains(text(),'Next')]"
