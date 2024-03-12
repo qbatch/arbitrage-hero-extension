@@ -597,6 +597,7 @@
       "//meta[@itemprop='price']/@content",
       "//meta[@property='og:price:amount']/@content",
       "//span[@itemprop='price']/@content",
+      "//span[@itemprop='price']",
       "//div[@itemprop='price']",
       "//script[@type='application/ld+json' and contains(text(),'sku')]/text()",
       "//script[@type='application/ld+json' and contains(text(),'SKU')]/text()"
