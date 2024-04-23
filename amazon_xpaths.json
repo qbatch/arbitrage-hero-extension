@@ -528,6 +528,7 @@
   "productDetailsPageXpath": {
     "itemBSR": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//span[contains(text(), 'Sellers Rank')]/parent::span/text()[2]"],
     "salePrice": [
+      "//div[contains(@id, 'apex_offerDisplay_desktop')]//span[contains(@class, 'a-offscreen')]",
       "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']",
       "//span[contains(@class, 'aok-offscreen')]",
       "//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]",
