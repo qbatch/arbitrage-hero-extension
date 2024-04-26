@@ -591,7 +591,8 @@
       "googleShoppingSellerName": [".aULzUe.IuHnof"],
       "maxCount": 1,
       "defaultNumberOfShopping": 20
-    }
+    },
+    "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
   },
   "storePage": {
     "costPriceXPaths": [
