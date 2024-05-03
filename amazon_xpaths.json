@@ -566,6 +566,7 @@
     ],
     "maxCount": 8,
     "detailPageoffersXpath": {
+      "pinnedBuyBoxOffer": ["//*[@id='aod-pinned-offer']"],
       "offersXpath": ["//div[@id = 'aod-offer-list']/div[@id = 'aod-offer']", "//div[@id = 'aod-offer']"],
       "offersPrice": [".a-offscreen"],
       "OffersFulfilmentChannel": ["span.a-size-small.a-color-base"],
