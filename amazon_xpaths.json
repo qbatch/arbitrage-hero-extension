@@ -526,6 +526,7 @@
     "vat_flat_rate": "11"
   },
   "productDetailsPageXpath": {
+    "itemSold": ["//span[contains(@id, 'social-proofing-faceout-title')]/span/text()"],
     "itemBSR": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//span[contains(text(), 'Sellers Rank')]/parent::span/text()[2]"],
     "salePrice": [
       "//div[contains(@id, 'apex_offerDisplay_desktop')]//span[contains(@class, 'a-offscreen')]",
