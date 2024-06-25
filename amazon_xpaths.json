@@ -20,38 +20,52 @@
   "auth_key": "ZmQxNjA2MjAtYmQzYy0xY2M0LTMxOWUtYzU1Nzg2YjFiYjlj",
   "profitCalculator": {
     "myProducts": {
-      "Small standard": ["0+ to 0.25 oz or less 3.22 extra 0", "0.25+ to 0.5 oz 3.40 extra 0", "0.5+ to 0.75 oz 3.58 extra 0", "0.75+ to 1 oz 3.77 extra 0"],
+      "Small standard": [
+        "0+ to 0.125 oz or less 3.06 extra 0",
+        "0.125+ to 0.25 oz 3.15 extra 0",
+        "0.25+ to 0.375 oz 3.24 extra 0",
+        "0.375+ to 0.5 oz 3.33 extra 0",
+        "0.5+ to 0.625 oz 3.43 extra 0",
+        "0.625+ to 0.75 oz 3.53 extra 0",
+        "0.75+ to 0.875 oz 3.60 extra 0",
+        "0.875+ to 1 oz 3.65 extra 0"
+      ],
       "Large standard": [
-        "0+ to 0.25 oz or less 3.86 extra 0",
-        "0.25+ to 0.5 oz 4.08 extra 0",
-        "0.5+ to 0.75 oz 4.24 extra 0",
-        "0.75+ to 1 oz 4.75 extra 0",
-        "1+ to 1.5 lb 5.40 extra 0",
-        "1.5+ to 2 lb 5.69 extra 0",
-        "2+ to 2.5 lb 6.10 extra 0",
-        "2.5+ to 3 lb 6.39 extra 0",
-        "3+ lb to 20 lb 7.17 extra 0.16"
+        "0+ to 0.25 oz or less 3.68 extra 0",
+        "0.25+ to 0.5 oz 3.90 extra 0",
+        "0.5+ to 0.75 oz 4.15 extra 0",
+        "0.75+ to 1 oz 4.55 extra 0",
+        "1+ to 1.25 lb 4.99 extra 0",
+        "1.25+ to 1.5 lb 5.37 extra 0",
+        "1.5+ to 1.75 lb 5.52 extra 0",
+        "1.75+ to 2 lb 5.77 extra 0",
+        "2+ to 2.25 lb 5.87 extra 0",
+        "2.25+ to 2.5 lb 6.05 extra 0",
+        "2.5+ to 2.75 lb 6.21 extra 0",
+        "2.75+ to 3 lb 6.62 extra 0",
+        "3+ lb to 20 lb 6.92 extra 0.08"
       ]
     },
     "apperalProducts": {
-      "Small standard": ["0+ to 0.25 oz or less 3.43 extra 0", "0.25+ to 0.5 oz 3.58 extra 0", "0.5+ to 0.75 oz 3.87 extra 0", "0.75+ to 1 oz 4.15 extra 0"],
+      "Small standard": ["0+ to 0.25 oz or less 3.27 extra 0", "0.25+ to 0.5 oz 3.42 extra 0", "0.5+ to 0.75 oz 3.72 extra 0", "0.75+ to 1 oz 3.98 extra 0"],
       "Large standard": [
-        "0+ to 0.25 oz or less 4.43 extra 0",
-        "0.25+ to 0.5 oz 4.63 extra 0",
-        "0.5+ to 0.75 oz 4.84 extra 0",
-        "0.75+ to 1 oz 5.32 extra 0",
-        "1+ to 1.5 lb 6.10 extra 0",
-        "1.5+ to 2 lb 6.37 extra 0",
-        "2+ to 2.5 lb 6.83 extra 0",
-        "2.5+ to 3 lb 7.05 extra 0",
-        "3+ lb to 20 lb 7.17 extra 0.16"
+        "0+ to 0.25 oz or less 4.25 extra 0",
+        "0.25+ to 0.5 oz 4.45 extra 0",
+        "0.5+ to 0.75 oz 4.67 extra 0",
+        "0.75+ to 1 oz 5.12 extra 0",
+        "1+ to 1.5 lb 5.90 extra 0",
+        "1.5+ to 2 lb 6.14 extra 0",
+        "2+ to 2.5 lb 6.60 extra 0",
+        "2.5+ to 3 lb 6.81 extra 0",
+        "3+ lb to 20 lb 6.92 extra 0.16"
       ]
     },
     "overSizedProduct": {
-      "Small oversize": ["0+ lb to 70lb charge 9.73 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Medium oversize": ["70+ lb to 150 lb charge 19.05 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Large oversize": ["70+ lb to 150 lb charge 89.98 extraRatePerLb 0.83 apply extra after 90 lb"],
-      "Special oversize": ["150+ lb to 150+ lb charge 158.49 extraRatePerLb 0.83 apply extra after 90 lb"]
+      "Large bulky Oversize": ["0+ lb to 50lb charge 9.61 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 0 to 50 lb Oversize": ["0+ lb to 50lb charge 26.33 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 50+ to 70 lb Oversize": ["50+ lb to 70 lb charge 40.12 extraRatePerLb 0.75 apply extra after 51 lb"],
+      "Extra-large 70+ to 150 lb Oversize": ["70+ lb to 150 lb charge 54.81 extraRatePerLb 0.75 apply extra after 71 lb"],
+      "Extra-large 150+ lb Oversize": ["150+ lb to 150+ lb charge 194.95  extraRatePerLb 0.19 apply extra after 151 lb"]
     },
 
     "smallAndLightItemsHash": {
@@ -70,40 +84,55 @@
       ]
     },
     "lowFBAFeesItemsHash": {
-      "Small standard": ["0+ to 0.25 oz or less 2.45 extra 0", "0.25+ to 0.5 oz 2.63 extra 0", "0.5+ to 0.75 oz 2.81 extra 0", "0.75+ to 1 oz 3.00 extra 0"],
-      "Large standard": [
-        "0+ to 0.25 oz or less 3.09 extra 0",
-        "0.25+ to 0.5 oz 3.31 extra 0",
-        "0.5+ to 0.75 oz 3.47 extra 0",
-        "0.75+ to 1 oz 3.98 extra 0",
-        "1+ to 1.5 lb 4.63 extra 0",
-        "1.5+ to 2 lb 4.92 extra 0",
-        "2+ to 2.5 lb 5.33 extra 0",
-        "2.5+ to 3 lb $5.62 extra 0",
-        "3+ lb to 20 lb 6.40 extra 0.16"
+      "Small standard": [
+        "0+ to 0.125 oz or less 2.29 extra 0",
+        "0.125+ to 0.25 oz or less 2.38 extra 0",
+        "0.25+ to 0.375 oz or less 2.47 extra 0",
+        "0.375+ to 0.5 oz or less 2.56 extra 0",
+        "0.5+ to 0.625 oz or less 2.66 extra 0",
+        "0.625+ to 0.75 oz or less 2.76 extra 0",
+        "0.75+ to 0.875 oz or less 2.83 extra 0",
+        "0.875+ to 1 oz or less 2.88 extra 0"
       ],
-      "Small oversize": ["0+ lb to 70lb charge 8.96 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Medium oversize": ["70+ lb to 150 lb charge 18.28 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Large oversize": ["70+ lb to 150 lb charge 89.21 extraRatePerLb 0.83 apply extra after 90 lb"],
-      "Special oversize": ["150+ lb to 150+ lb charge 157.72 extraRatePerLb 0.83 apply extra after 90 lb"]
+      "Large standard": [
+        "0+ to 0.25 oz or less 2.91 extra 0",
+        "0.25+ to 0.5 oz 3.13 extra 0",
+        "0.5+ to 0.75 oz 3.38 extra 0",
+        "0.75+ to 1 oz 3.78 extra 0",
+        "1+ to 1.25 lb 4.22 extra 0",
+        "1.25+ to 1.5 lb 4.60 extra 0",
+        "1.5+ to 1.75 lb 4.75 extra 0",
+        "1.75+ to 2 lb 5.00 extra 0",
+        "2+ to 2.25 lb 5.10 extra 0",
+        "2.25+ to 2.5 lb 5.28 extra 0",
+        "2.5+ to 2.75 lb 5.44 extra 0",
+        "2.75+ to 3 lb 5.85 extra 0",
+        "3+ lb to 20 lb 6.15 extra 0.08"
+      ],
+      "Large bulky Oversize": ["0+ lb to 50lb charge 8.84 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 0 to 50 lb Oversize": ["0+ lb to 50lb charge 25.56 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 50+ to 70 lb Oversize": ["50+ lb to 70 lb charge 39.35 extraRatePerLb 0.75 apply extra after 51 lb"],
+      "Extra-large 70+ to 150 lb Oversize": ["70+ lb to 150 lb charge 54.04 extraRatePerLb 0.75 apply extra after 71 lb"],
+      "Extra-large 150+ lb Oversize": ["150+ lb to 150+ lb charge 194.18 extraRatePerLb 0.19 apply extra after 151 lb"]
     },
     "lowFBAFeesApperal": {
-      "Small standard": ["0+ to 0.25 oz or less 2.66 extra 0", "0.25+ to 0.5 oz 2.81 extra 0", "0.5+ to 0.75 oz 3.10 extra 0", "0.75+ to 1 oz 3.38 extra 0"],
+      "Small standard": ["0+ to 0.25 oz or less 2.50 extra 0", "0.25+ to 0.5 oz 2.65 extra 0", "0.5+ to 0.75 oz 2.95 extra 0", "0.75+ to 1 oz 3.21 extra 0"],
       "Large standard": [
-        "0+ to 0.25 oz or less 3.66 extra 0",
-        "0.25+ to 0.5 oz 3.86 extra 0",
-        "0.5+ to 0.75 oz 4.07 extra 0",
-        "0.75+ to 1 oz 4.55 extra 0",
-        "1+ to 1.5 lb 5.33 extra 0",
-        "1.5+ to 2 lb 5.60 extra 0",
-        "2+ to 2.5 lb 6.06 extra 0",
-        "2.5+ to 3 lb 6.28 extra 0",
-        "3+ lb to 20 lb 6.40 extra 0.16"
+        "0+ to 0.25 oz or less 3.48 extra 0",
+        "0.25+ to 0.5 oz 3.68 extra 0",
+        "0.5+ to 0.75 oz 3.90 extra 0",
+        "0.75+ to 1 oz 4.35 extra 0",
+        "1+ to 1.5 lb 5.13 extra 0",
+        "1.5+ to 2 lb 5.37 extra 0",
+        "2+ to 2.5 lb 5.83 extra 0",
+        "2.5+ to 3 lb 6.04 extra 0",
+        "3+ lb to 20 lb 6.15 extra 0.16"
       ],
-      "Small oversize": ["0+ lb to 70lb charge 8.96 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Medium oversize": ["70+ lb to 150 lb charge 18.28 extraRatePerLb 0.42 apply extra after 1 lb"],
-      "Large oversize": ["70+ lb to 150 lb charge 89.21 extraRatePerLb 0.83 apply extra after 90 lb"],
-      "Special oversize": ["150+ lb to 150+ lb charge 157.72 extraRatePerLb 0.83 apply extra after 90 lb"]
+      "Large bulky Oversize": ["0+ lb to 50lb charge 8.84 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 0 to 50 lb Oversize": ["0+ lb to 50lb charge 25.56 extraRatePerLb 0.38 apply extra after 1 lb"],
+      "Extra-large 50+ to 70 lb Oversize": ["50+ lb to 70 lb charge 39.35 extraRatePerLb 0.75 apply extra after 51 lb"],
+      "Extra-large 70+ to 150 lb Oversize": ["70+ lb to 150 lb charge 54.04 extraRatePerLb 0.75 apply extra after 71 lb"],
+      "Extra-large 150+ lb Oversize": ["150+ lb to 150+ lb charge 194.18 extraRatePerLb 0.19 apply extra after 151 lb"]
     },
     "smallAndLightHashForUk": {
       "Small Envelope": ["0 to 0.17637 pounds or less 0.86 extra 0"],
