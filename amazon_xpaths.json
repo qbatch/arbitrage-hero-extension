@@ -143,10 +143,12 @@
     },
     "lowFBAFeeHashForUk": {
       "Small Envelope": ["0 to 0.17637 pounds or less 1.34 extra 0"],
-      "Standard Envelope": ["0 to 0.1322 pounds or less 1.44 extra 0", "0.1322 to 0.4629 pounds or less 1.61 extra 0", "0.4629 to 1.0141 pounds or less 1.74 extra 0"],
-      "Large Envelope": ["0 to 2.1164 pounds or less 2.21 extra 0"],
-      "Extra Large Envelope": ["0 to 2.1164 pounds or less 2.42 extra 0"],
-      "Small Parcel": ["0 to 0.3306 pounds or less 2.42 extra 0", "0.3306 to 0.8818 pounds or less 2.44 extra 0"]
+      "Standard Envelope": ["0 to 0.1322 pounds or less 1.52 extra 0", "0.1322 to 0.4629 pounds or less 1.69 extra 0", "0.4629 to 1.0141 pounds or less 1.83 extra 0"],
+
+      "Large Envelope": ["0 to 2.1164 pounds or less 2.36 extra 0"],
+
+      "Extra Large Envelope": ["0 to 2.1164 pounds or less 2.59 extra 0"],
+      "Small Parcel": ["0 to 0.3306 pounds or less 2.61 extra 0", "0.3306 to 0.8818 pounds or less 2.64 extra 0"]
     },
     "variableClosingFeeUS": 1.8,
     "variableClosingFeeUK": 0.5,
@@ -154,64 +156,66 @@
     "varibaleClosingFeeHashForBooksInUK": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"],
     "fulfillmentFeeHashForUk": {
       "Small Envelope": ["0 to 0.17637 pounds or less 1.71 extra 0"],
-      "Standard Envelope": ["0 to 0.1322 pounds or less 1.81 extra 0", "0.1322 to 0.4629 pounds or less 1.98 extra 0", "0.4629 to 1.0141 pounds or less 2.11 extra 0"],
-      "Large Envelope": ["0 to 2.1164 pounds or less 2.58 extra 0"],
-      "Extra Large Envelope": ["0 to 2.1164 pounds or less 2.79 extra 0"],
+      "Standard Envelope": ["0 to 0.1322 pounds or less 1.89 extra 0", "0.1322 to 0.4629 pounds or less 2.07 extra 0", "0.4629 to 1.0141 pounds or less 2.20 extra 0"],
+      "Large Envelope": ["0 to 2.1164 pounds or less 2.73 extra 0"],
+      "Extra Large Envelope": ["0 to 2.1164 pounds or less 2.95 extra 0"],
       "Small Parcel": [
-        "0 to 0.3306 pounds or less 2.79 extra 0",
-        "0.3306 to 0.8818 pounds or less 2.81 extra 0",
-        "0.8818 to 1.98 pounds or less 2.85 extra 0",
-        "1.98 to 3.086 pounds or less 3.02 extra 0",
-        "3.086 to 4.188 pounds or less 3.31 extra 0",
-        "4.188 to 8.597 pounds or less 5.30 extra 0"
+        "0 to 0.3306 pounds or less 2.99 extra 0",
+        "0.3306 to 0.8818 pounds or less 3.01 extra 0",
+        "0.8818 to 1.98 pounds or less 3.05 extra 0",
+        "1.98 to 3.086 pounds or less 3.23 extra 0",
+        "3.086 to 4.188 pounds or less 3.58 extra 0",
+        "4.188 to 8.597 pounds or less 5.62 extra 0"
       ],
       "Standard Parcel": [
-        "0 to 0.3306 pounds or less 2.81 extra 0",
-        "0.3306 to 0.8818 pounds or less 2.92 extra 0",
-        "0.8818 to 1.98 pounds or less 3.15 extra 0",
-        "1.98 to 3.086 pounds or less 3.36 extra 0",
-        "3.086 to 4.188 pounds or less 3.68 extra 0",
-        "4.188 to 6.3932 pounds or less 5.38 extra 0",
-        "6.3932 to 8.597 pounds or less 5.68 extra 0",
-        "8.597 to 13 pounds or less 5.84 extra 0",
-        "13 to 19.62 pounds or less 6.66 extra 0",
-        "19.62 to 26.23 pounds or less 7.04 extra 0"
+        "0 to 0.3306 pounds or less 3.00 extra 0",
+        "0.3306 to 0.8818 pounds or less 3.16 extra 0",
+        "0.8818 to 1.98 pounds or less 3.37 extra 0",
+        "1.98 to 3.086 pounds or less 3.60 extra 0",
+        "3.086 to 4.188 pounds or less 3.90 extra 0",
+        "4.188 to 6.3932 pounds or less 5.65 extra 0",
+        "6.3932 to 8.597 pounds or less 5.96 extra 0",
+        "8.597 to 13 pounds or less 6.13 extra 0",
+        "13 to 19.62 pounds or less 6.99 extra 0",
+        "19.62 to 26.23 pounds or less 7.39 extra 0"
       ],
       "Small Oversize": [
-        "0 lb to 1.675 lb charge 5.06 extraRatePerLb 0 apply extra after 0 lb",
-        "1.675 lb to 2.777 lb charge 5.87 extraRatePerLb 0 apply extra after 0 lb",
-        "2.777 lb to 3.88 lb charge 6.05 extraRatePerLb 0 apply extra after 0 lb",
-        "3.88 lb to 3.88 lb charge 6.05 extraRatePerLb 0.01 apply extra after 3.88 lb"
+        "0 lb to 1.675 lb charge 5.32 extraRatePerLb 0 apply extra after 0 lb",
+        "1.675 lb to 2.777 lb charge 6.17 extraRatePerLb 0 apply extra after 0 lb",
+        "2.777 lb to 3.88 lb charge 6.36 extraRatePerLb 0 apply extra after 0 lb",
+        "3.88 lb to 3.88 lb charge 6.36 extraRatePerLb 0.01 apply extra after 3.88 lb"
       ],
+
       "Standard Oversize": [
-        "0 lb to 1.675 lb charge 6.01 extraRatePerLb 0 apply extra after 0 lb",
-        "1.675 lb to 3.88 lb charge 6.35 extraRatePerLb 0 apply extra after 0 lb",
-        "3.88 lb to 6.084 lb charge 6.50 extraRatePerLb 0 apply extra after 0 lb",
-        "6.084 lb to 8.289 lb charge 6.53 extraRatePerLb 0 apply extra after 0 lb",
-        "8.289 lb to 10.4938 lb charge 6.56 extraRatePerLb 0 apply extra after 0 lb",
-        "10.4938 lb to 21.516 lb charge 7.85 extraRatePerLb 0 apply extra after 0 lb",
-        "21.516 lb to 32.539 lb charge 8.40 extraRatePerLb 0 apply extra after 0 lb",
-        "32.539 lb to 43.56 lb charge 8.80 extraRatePerLb 0 apply extra after 0 lb",
-        "43.56 lb to 54.5844 lb charge 9.76 extraRatePerLb 0 apply extra after 0 lb",
-        "54.5844 lb to 65.608 lb charge 9.77 extraRatePerLb 0 apply extra after 0 lb",
-        "65.608 lb to 65.608 lb charge 9.77 extraRatePerLb 0.01 apply extra after 65.608 lb"
+        "0 lb to 1.675 lb charge 6.32 extraRatePerLb 0 apply extra after 0 lb",
+        "1.675 lb to 3.88 lb charge 6.67 extraRatePerLb 0 apply extra after 0 lb",
+        "3.88 lb to 6.084 lb charge 6.82 extraRatePerLb 0 apply extra after 0 lb",
+        "6.084 lb to 8.289 lb charge 6.86 extraRatePerLb 0 apply extra after 0 lb",
+        "8.289 lb to 10.4938 lb charge 6.89 extraRatePerLb 0 apply extra after 0 lb",
+        "10.4938 lb to 21.516 lb charge 8.24 extraRatePerLb 0 apply extra after 0 lb",
+        "21.516 lb to 32.539 lb charge 8.82 extraRatePerLb 0 apply extra after 0 lb",
+        "32.539 lb to 43.56 lb charge 9.24 extraRatePerLb 0 apply extra after 0 lb",
+        "43.56 lb to 54.5844 lb charge 10.24 extraRatePerLb 0 apply extra after 0 lb",
+        "54.5844 lb to 65.608 lb charge 10.25 extraRatePerLb 0 apply extra after 0 lb",
+        "65.608 lb to 65.608 lb charge 10.25 extraRatePerLb 0.01 apply extra after 65.608 lb"
       ],
       "Large Oversize": [
-        "0 lb to 10.4938 lb charge 10.91 extraRatePerLb 0 apply extra after 0 lb",
-        "10.4938 lb to 21.516 lb charge 11.93 extraRatePerLb 0 apply extra after 0 lb",
-        "21.516 lb to 32.539 lb charge 12.60 extraRatePerLb 0 apply extra after 0 lb",
-        "32.539 lb to 43.56 lb charge 13.20 extraRatePerLb 0 apply extra after 0 lb",
-        "43.56 lb to 54.5844 lb charge 14.37 extraRatePerLb 0 apply extra after 0 lb",
-        "54.5844 lb to 69.44 lb charge 14.40 extraRatePerLb 0 apply extra after 0 lb",
-        "69.44 lb to 69.44 lb charge 14.40 extraRatePerLb 0.01 apply extra after 69.44 lb"
+        "0 lb to 10.4938 lb charge 11.45 extraRatePerLb 0 apply extra after 0 lb",
+        "10.4938 lb to 21.516 lb charge 12.52 extraRatePerLb 0 apply extra after 0 lb",
+        "21.516 lb to 32.539 lb charge 13.22 extraRatePerLb 0 apply extra after 0 lb",
+        "32.539 lb to 43.56 lb charge 13.86 extraRatePerLb 0 apply extra after 0 lb",
+        "43.56 lb to 54.5844 lb charge 15.08 extraRatePerLb 0 apply extra after 0 lb",
+        "54.5844 lb to 69.44 lb charge 15.12 extraRatePerLb 0 apply extra after 0 lb",
+        "69.44 lb to 69.44 lb charge 15.12 extraRatePerLb 0.01 apply extra after 69.44 lb"
       ],
+
       "Special Oversize": [
         "0 lb to 44.091 lb charge 15.43 extraRatePerLb 0 apply extra after 0 lb",
         "44.091 lb to 66.137 lb charge 18.48 extraRatePerLb 0 apply extra after 0 lb",
         "66.137 lb to 88.183 lb charge 19.16 extraRatePerLb 0 apply extra after 0 lb",
         "88.183 lb to 110.229 lb charge 42.98 extraRatePerLb 0 apply extra after 0 lb",
         "110.229 lb to 132.275 lb charge 44.25 extraRatePerLb 0 apply extra after 0 lb",
-        "132.275 lb to 132.275 lb charge 44.25 extraRatePerLb 0.37 apply extra after 132.275 lb"
+        "132.275 lb to 132.275 lb charge 44.25 extraRatePerLb 0.39 apply extra after 132.275 lb"
       ]
     },
     "storageFeeRangesByMonthsForUK": { "standard": { "jan_sep": 0.78, "oct_dec": 1.1 }, "oversize": { "jan_sep": 0.46, "oct_dec": 0.64 } },
