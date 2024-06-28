@@ -621,7 +621,7 @@
     }
   },
 
-  "1.0.1": {
+  "1.0.2": {
     "websites": {
       "amazon": {
         "list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
