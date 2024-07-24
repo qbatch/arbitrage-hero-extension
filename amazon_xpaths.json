@@ -1585,740 +1585,1298 @@
         "referralFee": {
           "Amazon Device Accessories": [
             {
-              "min": 0,
-              "percentage": 45
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 45
+                }
+              ]
             }
           ],
           "Amazon Explore": [
             {
-              "min": 0,
-              "percentage": 30
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 30
+                }
+              ]
             }
           ],
           "Automotive": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Automotive and Powersports": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Automotive & Powersports": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Arts, Crafts & Sewing": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Backpacks, Handbags, and Luggage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Backpacks, Handbags, & Luggage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Baby": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Baby Products": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty & Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty, Health and Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty, Health & Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Industrial & Scientific": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Business, Industrial, and Scientific Supplies": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Business, Industrial, & Scientific Supplies": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Cell Phones & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Clothing and Accessories": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
-            },
-            {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
-            },
-            {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             }
           ],
           "Clothing & Accessories": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
-            },
-            {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
-            },
-            {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             }
           ],
           "Clothing, Shoes and Jewelry": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Clothing, Shoes & Jewelry": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Our Brands": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Appliances": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Compact Appliances": [
             {
-              "min": 0,
-              "max": 300,
-              "percentage": 15
-            },
-            {
-              "min": 300,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 300,
+                  "percentage": 15
+                },
+                {
+                  "min": 300,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Computers": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Consumer Electronics": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Electronics Accessories": [
             {
-              "min": 0,
-              "max": 100,
-              "percentage": 15
-            },
-            {
-              "min": 100,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15
+                },
+                {
+                  "min": 100,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Electronics": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Everything Else": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Eyewear": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Fine Art": [
             {
-              "min": 0,
-              "max": 100,
-              "percentage": 20
-            },
-            {
-              "min": 100,
-              "max": 1000,
-              "percentage": 15
-            },
-            {
-              "min": 1000,
-              "max": 5000,
-              "percentage": 10
-            },
-            {
-              "min": 5000,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 20
+                },
+                {
+                  "min": 100,
+                  "max": 1000,
+                  "percentage": 15
+                },
+                {
+                  "min": 1000,
+                  "max": 5000,
+                  "percentage": 10
+                },
+                {
+                  "min": 5000,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Footwear": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Full-Size Appliances": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Furniture": [
             {
-              "min": 0,
-              "max": 200,
-              "percentage": 15
-            },
-            {
-              "min": 200,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ]
             }
           ],
           "Gift Cards": [
             {
-              "min": 0,
-              "percentage": 20
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 20
+                }
+              ]
             }
           ],
           "Grocery & Gourmet Food": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Grocery and Gourmet": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Grocery & Gourmet": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home and Kitchen": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Home & Kitchen": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Kitchen & Dining": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Lawn and Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Lawn & Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Patio, Lawn & Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home Audio & Theater": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Media - Books, DVD, Music, Software, Video": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home Audio and Theater": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "DVD": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "DVD & Blu-ray": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "CDs & Vinyl": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Prime Video - All Videos": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Digital Music": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments & DJ": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Kindle Books": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Books": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Kindle Unlimited": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Prime Reading": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Children's Book": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Textbooks": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments and AV Production": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments & AV Production": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Office Products": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Pet Products": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Pet Supplies": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Sports and Outdoors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Sports & Outdoors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tools and Home Improvement": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tools & Home Improvement": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Toys and Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Toys & Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Game Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games and Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games & Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computers & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "All PC & Mac Software": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "All Computers & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computer Componenets": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computer Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Laptops": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tablets": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Desktops": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Monitors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Memory & Storage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Networking Devices": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Health & Household": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Health and Household": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Jewelry": [
             {
-              "min": 0,
-              "max": 250,
-              "percentage": 20
-            },
-            {
-              "min": 250,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Lawn Mowers and Snow Throwers": [
             {
-              "min": 0,
-              "max": 500,
-              "percentage": 15
-            },
-            {
-              "min": 500,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 500,
+                  "percentage": 15
+                },
+                {
+                  "min": 500,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Lawn Mowers & Snow Throwers": [
             {
-              "min": 0,
-              "max": 500,
-              "percentage": 15
-            },
-            {
-              "min": 500,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 500,
+                  "percentage": 15
+                },
+                {
+                  "min": 500,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Mattresses": [
             {
-              "min": 0,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Tires": [
             {
-              "min": 0,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 10
+                }
+              ]
             }
           ],
           "Video Game Consoles": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Camera & Photo": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Camera and Photo": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Watches": [
             {
-              "min": 0,
-              "max": 1500,
-              "percentage": 16
-            },
-            {
-              "min": 1500,
-              "percentage": 3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ]
             }
           ],
           "defaultPercentageForReferral": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ]
         }
@@ -2477,7 +3035,10 @@
       "es": { "symbol": "€", "market": 9, "value": "ES" },
       "in": { "symbol": "₹", "market": 10, "value": "IN" }
     },
-  
+    "profitCalculatorCountryCodes": {
+      "US": { "countryCode": "US", "currency": "USD" },
+      "UK": { "countryCode": "GB", "currency": "GBP" }
+    },
     "US": {
       "marketplaceID": "ATVPDKIKX0DER",
       "calculations": {
@@ -3359,740 +3920,1298 @@
         "referralFee": {
           "Amazon Device Accessories": [
             {
-              "min": 0,
-              "percentage": 45
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 45
+                }
+              ]
             }
           ],
           "Amazon Explore": [
             {
-              "min": 0,
-              "percentage": 30
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 30
+                }
+              ]
             }
           ],
           "Automotive": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Automotive and Powersports": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Automotive & Powersports": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Arts, Crafts & Sewing": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Backpacks, Handbags, and Luggage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Backpacks, Handbags, & Luggage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Baby": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Baby Products": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty & Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty, Health and Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Beauty, Health & Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Industrial & Scientific": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Business, Industrial, and Scientific Supplies": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Business, Industrial, & Scientific Supplies": [
             {
-              "min": 0,
-              "percentage": 12
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12
+                }
+              ]
             }
           ],
           "Cell Phones & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Clothing and Accessories": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
-            },
-            {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
-            },
-            {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             }
           ],
           "Clothing & Accessories": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
-            },
-            {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
-            },
-            {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             }
           ],
           "Clothing, Shoes and Jewelry": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Clothing, Shoes & Jewelry": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Our Brands": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 5
+                },
+                {
+                  "min": 15,
+                  "max": 20,
+                  "percentage": 10
+                },
+                {
+                  "min": 20,
+                  "percentage": 17
+                }
+              ]
             },
             {
-              "min": 15,
-              "max": 20,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ],
+              "isPortion": false
             },
             {
-              "min": 20,
-              "percentage": 17
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 17
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Appliances": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Compact Appliances": [
             {
-              "min": 0,
-              "max": 300,
-              "percentage": 15
-            },
-            {
-              "min": 300,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 300,
+                  "percentage": 15
+                },
+                {
+                  "min": 300,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Computers": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Consumer Electronics": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Electronics Accessories": [
             {
-              "min": 0,
-              "max": 100,
-              "percentage": 15
-            },
-            {
-              "min": 100,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15
+                },
+                {
+                  "min": 100,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Electronics": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Everything Else": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Eyewear": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Fine Art": [
             {
-              "min": 0,
-              "max": 100,
-              "percentage": 20
-            },
-            {
-              "min": 100,
-              "max": 1000,
-              "percentage": 15
-            },
-            {
-              "min": 1000,
-              "max": 5000,
-              "percentage": 10
-            },
-            {
-              "min": 5000,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 20
+                },
+                {
+                  "min": 100,
+                  "max": 1000,
+                  "percentage": 15
+                },
+                {
+                  "min": 1000,
+                  "max": 5000,
+                  "percentage": 10
+                },
+                {
+                  "min": 5000,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Footwear": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Full-Size Appliances": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Furniture": [
             {
-              "min": 0,
-              "max": 200,
-              "percentage": 15
-            },
-            {
-              "min": 200,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ]
             }
           ],
           "Gift Cards": [
             {
-              "min": 0,
-              "percentage": 20
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 20
+                }
+              ]
             }
           ],
           "Grocery & Gourmet Food": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Grocery and Gourmet": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Grocery & Gourmet": [
             {
-              "min": 0,
-              "max": 15,
-              "percentage": 8
-            },
-            {
-              "min": 15,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "percentage": 8
+                },
+                {
+                  "min": 15,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home and Kitchen": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Home & Kitchen": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 200,
+                  "percentage": 15
+                },
+                {
+                  "min": 200,
+                  "percentage": 10
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Kitchen & Dining": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Lawn and Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Lawn & Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Patio, Lawn & Garden": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home Audio & Theater": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Media - Books, DVD, Music, Software, Video": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Home Audio and Theater": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "DVD": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "DVD & Blu-ray": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "CDs & Vinyl": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Prime Video - All Videos": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Digital Music": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments & DJ": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Kindle Books": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Books": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Kindle Unlimited": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Prime Reading": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Children's Book": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Textbooks": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments and AV Production": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Musical Instruments & AV Production": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Office Products": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Pet Products": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Pet Supplies": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Sports and Outdoors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Sports & Outdoors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tools and Home Improvement": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tools & Home Improvement": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Toys and Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Toys & Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Game Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games and Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Video Games & Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computers & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "All PC & Mac Software": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "All Computers & Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computer Componenets": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Computer Accessories": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Laptops": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Tablets": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Desktops": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Monitors": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Memory & Storage": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Networking Devices": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Health & Household": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Health and Household": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8
-            },
-            {
-              "min": 10,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8
+                },
+                {
+                  "min": 10,
+                  "percentage": 15
+                }
+              ]
             }
           ],
           "Jewelry": [
             {
-              "min": 0,
-              "max": 250,
-              "percentage": 20
-            },
-            {
-              "min": 250,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 250,
+                  "percentage": 20
+                },
+                {
+                  "min": 250,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Lawn Mowers and Snow Throwers": [
             {
-              "min": 0,
-              "max": 500,
-              "percentage": 15
-            },
-            {
-              "min": 500,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 500,
+                  "percentage": 15
+                },
+                {
+                  "min": 500,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Lawn Mowers & Snow Throwers": [
             {
-              "min": 0,
-              "max": 500,
-              "percentage": 15
-            },
-            {
-              "min": 500,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 500,
+                  "percentage": 15
+                },
+                {
+                  "min": 500,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Mattresses": [
             {
-              "min": 0,
-              "percentage": 5
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 5
+                }
+              ]
             }
           ],
           "Tires": [
             {
-              "min": 0,
-              "percentage": 10
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 10
+                }
+              ]
             }
           ],
           "Video Game Consoles": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Camera & Photo": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Camera and Photo": [
             {
-              "min": 0,
-              "percentage": 8
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8
+                }
+              ]
             }
           ],
           "Watches": [
             {
-              "min": 0,
-              "max": 1500,
-              "percentage": 16
-            },
-            {
-              "min": 1500,
-              "percentage": 3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 1500,
+                  "percentage": 16
+                },
+                {
+                  "min": 1500,
+                  "percentage": 3
+                }
+              ]
             }
           ],
           "defaultPercentageForReferral": [
             {
-              "min": 0,
-              "percentage": 15
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15
+                }
+              ]
             }
           ]
         }
@@ -4900,634 +6019,1347 @@
         "referralFee": {
           "Amazon Device Accessories": [
             {
-              "min": 0,
-              "percentage": 45.9
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 45.9
+                }
+              ]
+            }
+          ],
+          "Amazon Devices & Accessories": [
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 45.9
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Amazon Explore": [
             {
-              "min": 0,
-              "percentage": 30
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 30
+                }
+              ]
             }
           ],
           "Automotive": [
             {
-              "min": 0,
-              "max": 45,
-              "percentage": 15.3
-            },
-            {
-              "min": 45,
-              "percentage": 9.18
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 45,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 45,
+                  "percentage": 9.18
+                }
+              ]
             }
           ],
           "Automotive and Powersports": [
             {
-              "min": 0,
-              "max": 45,
-              "percentage": 15.3
-            },
-            {
-              "min": 45,
-              "percentage": 9.18
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 45,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 45,
+                  "percentage": 9.18
+                }
+              ]
             }
           ],
           "Automotive & Powersports": [
             {
-              "min": 0,
-              "max": 45,
-              "percentage": 15.3
-            },
-            {
-              "min": 45,
-              "percentage": 9.18
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 45,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 45,
+                  "percentage": 9.18
+                }
+              ]
             }
           ],
           "Baby Products": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8.16
-            },
-            {
-              "min": 10,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Beauty, Health and Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8.16
-            },
-            {
-              "min": 10,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Beauty, Health & Personal Care": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8.16
-            },
-            {
-              "min": 10,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Clothing and Accessories": [
             {
-              "min": 0,
-              "max": 40,
-              "percentage": 15.3
-            },
-            {
-              "min": 40,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 40,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Clothing & Accessories": [
             {
-              "min": 0,
-              "max": 40,
-              "percentage": 15.3
-            },
-            {
-              "min": 40,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 40,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Clothing, Shoes and Jewelry": [
             {
-              "min": 0,
-              "max": 40,
-              "percentage": 15.3
-            },
-            {
-              "min": 40,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 40,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Clothing, Shoes & Jewelry": [
             {
-              "min": 0,
-              "max": 40,
-              "percentage": 15.3
-            },
-            {
-              "min": 40,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 40,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Electronic Accessories": [
             {
-              "min": 0,
-              "max": 100,
-              "percentage": 15.3
-            },
-            {
-              "min": 100,
-              "percentage": 8.16
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ]
             }
           ],
           "Furniture": [
             {
-              "min": 0,
-              "max": 175,
-              "percentage": 15.3
-            },
-            {
-              "min": 175,
-              "percentage": 10.2
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 175,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 175,
+                  "percentage": 10.2
+                }
+              ]
             }
           ],
           "Grocery and Gourmet": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8.16
-            },
-            {
-              "min": 10,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Grocery & Gourmet": [
             {
-              "min": 0,
-              "max": 10,
-              "percentage": 8.16
-            },
-            {
-              "min": 10,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Jewellery": [
             {
-              "min": 0,
-              "max": 225,
-              "percentage": 20.4
-            },
-            {
-              "min": 225,
-              "percentage": 5.1
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 225,
+                  "percentage": 20.4
+                },
+                {
+                  "min": 225,
+                  "percentage": 5.1
+                }
+              ]
             }
           ],
           "Watches": [
             {
-              "min": 0,
-              "max": 225,
-              "percentage": 15.3
-            },
-            {
-              "min": 225,
-              "percentage": 5.1
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 225,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 225,
+                  "percentage": 5.1
+                }
+              ]
             }
           ],
           "Computers": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Consumer Electronics": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Electronics and Photo": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Electronics & Photo": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
+            }
+          ],
+          "Headphones, Earphones & Accessories": [
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Full-Size Appliances": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Tyres": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Large Appliances": [
             {
-              "min": 0,
-              "percentage": 7.14
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Cycling Accessories": [
             {
-              "min": 0,
-              "percentage": 8.16
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8.16
+                }
+              ]
             }
           ],
           "Video Game Consoles": [
             {
-              "min": 0,
-              "percentage": 8.16
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8.16
+                }
+              ]
             }
           ],
           "Beer, Wine and Spirits": [
             {
-              "min": 0,
-              "percentage": 10.2
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 10.2
+                }
+              ]
             }
           ],
           "Beer, Wine & Spirits": [
             {
-              "min": 0,
-              "percentage": 10.2
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 10.2
+                }
+              ]
             }
           ],
           "Commercial Electrical and Energy Supplies": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
             }
           ],
           "Commercial Electrical & Energy Supplies": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
             }
           ],
           "Musical Instruments & DJ": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 10,
+                  "percentage": 15.3
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Musical Instruments and AV Production": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 10,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Musical Instruments & AV Production": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 10,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 10,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": false
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Handmade": [
             {
-              "min": 0,
-              "percentage": 12.24
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 12.24
+                }
+              ]
             }
           ],
           "Tools and Home Improvement": [
             {
-              "min": 0,
-              "percentage": 13.26
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
             }
           ],
           "Tools & Home Improvement": [
             {
-              "min": 0,
-              "percentage": 13.26
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
             }
           ],
           "DIY & Tools": [
             {
-              "min": 0,
-              "percentage": 13.26
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "DIY and Tools": [
             {
-              "min": 0,
-              "percentage": 13.26
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Lighting": [
             {
-              "min": 0,
-              "percentage": 13.26
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Rucksacks and Handbags": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Rucksacks & Handbags": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Books": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Kindle Books": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Kindle Unlimited": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Prime Reading": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Children's Book": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Textbooks": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Business, Industrial & Scientific Supplies": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Compact Appliances": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Eyewear": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Footwear": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Home and Kitchen": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Home & Kitchen": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Lawn and Garden": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
             }
           ],
           "Lawn & Garden": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 13.26
+                }
+              ]
             }
           ],
           "Lawn Mowers and Snow Throwers": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Luggage & Travel Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Mattresses": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Music, Video and DVD": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Music, Video & DVD": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "DVD": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "DVD & Blu-ray": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "CDs & Vinyl": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Prime Video - All Videos": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Digital Music": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Office Products": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Pet Supplies": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Software": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Software & Computer/Video Games": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Sports and Outdoors": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "isPortion": false,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 15,
+                  "max": 40,
+                  "isPortion": false,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 0,
+                  "max": 40,
+                  "isPortion": true,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "isPortion": true,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Sports & Outdoors": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "isPortion": false,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 15,
+                  "max": 40,
+                  "isPortion": false,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 0,
+                  "max": 40,
+                  "switch": true,
+                  "isPortion": true,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "isPortion": true,
+                  "percentage": 7.14
+                }
+              ]
+            }
+          ],
+          "Fashion": [
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 15,
+                  "isPortion": false,
+                  "percentage": 8.16
+                },
+                {
+                  "min": 15,
+                  "max": 40,
+                  "isPortion": false,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 0,
+                  "max": 40,
+                  "switch": true,
+                  "isPortion": true,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 40,
+                  "isPortion": true,
+                  "percentage": 7.14
+                }
+              ]
             }
           ],
           "Toys and Games": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Toys & Games": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Video Games and Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Video Games & Gaming Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "PC & Video Games": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 8.16
+                }
+              ]
             }
           ],
           "All PC & Mac Software": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Video Game Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Everything else": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "All Computers & Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 7.14
+                }
+              ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 100,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 100,
+                  "percentage": 8.16
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Computer Componenets": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Computer Accessories": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Laptops": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Tablets": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Desktops": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Monitors": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Memory & Storage": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "Networking Devices": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ],
           "defaultPercentageForReferral": [
             {
-              "min": 0,
-              "percentage": 15.3
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "percentage": 15.3
+                }
+              ]
             }
           ]
         }
       },
-      "portionCategories": ["Automotive", "Automotive and Powersports", "Clothing and Accessories", "Electronic Accessories", "Furniture", "Jewellery", "Watches"],
+      "portionCategories": ["Automotive", "Automotive & Powersports", "Automotive and Powersports", "Fashion", "Clothing and Accessories", "Electronic Accessories", "Furniture", "Jewellery", "Watches"],
   
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
         "Amazon Device Accessories",
+        "Amazon Devices & Accessories",
         "Amazon Explore",
-        "Automotive & Powersports",
         "Baby Products",
         "Beauty, Health & Personal Care",
         "Beauty, Health and Personal Care",
@@ -5556,6 +7388,7 @@
         "Digital Music",
         "Electronics & Photo",
         "Electronics and Photo",
+        "Headphones, Earphones & Accessories",
         "Everything else",
         "Eyewear",
         "Footwear",
