@@ -7053,6 +7053,7 @@
                 {
                   "min": 0,
                   "max": 40,
+                  "switch": true,
                   "isPortion": true,
                   "percentage": 15.3
                 },
@@ -7138,6 +7139,34 @@
                   "percentage": 7.14
                 }
               ]
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 225,
+                  "percentage": 15.3
+                },
+                {
+                  "min": 225,
+                  "percentage": 5.1
+                }
+              ],
+              "isPortion": true
+            },
+            {
+              "valuesArray": [
+                {
+                  "min": 0,
+                  "max": 225,
+                  "percentage": 20.4
+                },
+                {
+                  "min": 225,
+                  "percentage": 5.1
+                }
+              ],
+              "isPortion": true
             }
           ],
           "Toys and Games": [
