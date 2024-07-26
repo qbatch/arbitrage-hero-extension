@@ -763,9 +763,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -782,9 +780,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -801,9 +797,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -819,9 +813,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -3186,9 +3178,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -3205,9 +3195,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -3224,9 +3212,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
@@ -3242,9 +3228,7 @@
                       { "key": "longestSide", "value": 59, "operator": ">" },
                       { "key": "medianSide", "value": 33, "operator": ">" },
                       { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" }
                     ]
                   }
                 ]
