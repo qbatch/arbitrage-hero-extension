@@ -6209,6 +6209,86 @@
   
     "UK": {
       "marketplaceID": "A1F83G8C2ARO7P",
+      "xPaths": {
+        "list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
+        "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
+        "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
+        "list_page_subcontainer": [".a-section.a-spacing-small"],
+        "detail_page_subcontainer": ["//div[@id='rightCol']", "//div[contains(@class,'Col-bbcxoverride')]", "//div[@data-feature-name='desktop_buybox']", "//div[@id='desktop_buybox']"],
+        "detail_page_middle_container": ["//div[@id = 'centerCol']//div[@id = 'title_feature_div']", "//div[@id = 'centerCol']//div[contains(@id , 'title') and contains(@id,'_feature_div')]"],
+        "page_not_found": ["//img[contains(@src, '/error/') and @id = 'd']"],
+        "productDetailsPageXpath": {
+          "itemSold": ["//span[contains(@id, 'social-proofing-faceout-title')]/span/text()"],
+          "itemBSR": ["//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]", "//span[contains(text(), 'Sellers Rank')]/parent::span/text()[2]"],
+          "salePrice": [
+            "//div[contains(@id, 'apex_offerDisplay_desktop')]//span[contains(@class, 'a-offscreen')]",
+            "//li[contains(@class ,'selected')]//span[@class = 'a-color-base']",
+            "//span[contains(@class, 'aok-offscreen')]",
+            "//div[contains(@data-cel-widget, 'corePrice_')]//span[contains(@class, '-offscreen')]",
+            "//div[contains(@data-cel-widget, 'corePriceDisplay_')]//span[contains(@class, 'priceToPay')]/span[1]",
+            "//li[@class='swatchSelect']//span[contains(@class, 'a-color-price')]",
+            "//span[contains(@class, 'a-button-selected')]//span[contains(@class, 'a-color-price')]",
+            "//span[contains(@class, 'apexPriceToPay')]/span[1]",
+            "//span[contains(@class, 'a-button-selected')]//span[@id='_price']/span"
+          ],
+          "itemDimension": [
+            "//th[contains(text(), 'Dimensions')]/following-sibling::td",
+            "//*[contains(text(), 'Dimensions')]/following-sibling::td",
+            "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Dimensions')]/following-sibling::span/text()"
+          ],
+          "itemWeight": [
+            "//th[contains(text(), 'Item Weight')]/following-sibling::td",
+            "//*[contains(text(), 'Item Weight')]/following-sibling::td",
+            "//div[@id = 'detailBullets_feature_div']/ul/li//span[contains(text(), 'Item Weight')]/following-sibling::span/text()"
+          ],
+          "itemTitle": ["//span[@id='productTitle']", "//h1[@class= 'gc-detail-page-title']/span"],
+          "detailPageImage": ["//div[@id = 'altImages']/ul/li[@data-csa-c-action='image-block-alt-image-hover'][1]//img/@src"],
+          "itemCategory": [
+            "//th[contains(text(), 'Sellers Rank')]//following-sibling::td//span/span[1]",
+            "//span[contains(text(),  'Sellers Rank:')]/..",
+            "//div[contains(@id, '-subnav')]/a[1]",
+            "//div[contains(@id, 'wayfinding-breadcrumbs_feature')]//li[1]",
+            "//ul[@class = 'a-unordered-list a-horizontal a-size-small']/li[1]/span/a/text()"
+          ],
+          "productDetailPageImage": [
+            "//div[contains(@id, 'img-canvas')]/img/@src",
+            "//div[@id = 'imageBlockCommon']//img/@src",
+            "//div[@class='imgTagWrapper' or @class='imgTagWrapper']//img/@src",
+            "//div[@id='img-wrapper']//img/@src",
+            "//div[contains(@class, 'a-section gc-design-image-wrapper')]"
+          ],
+          "maxCount": 8,
+          "detailPageOffersXpath": {
+            "pinnedBuyBoxOffer": ["//*[@id='aod-pinned-offer']"],
+            "offersXpath": ["//div[@id = 'aod-offer-list']/div[@id = 'aod-offer']", "//div[@id = 'aod-offer']"],
+            "offersPrice": [".a-offscreen"],
+            "OffersFulfilmentChannel": ["span.a-size-small.a-color-base"],
+            "sellerIdXpath": ["div#aod-offer-soldBy a.a-size-small.a-link-normal"],
+            "buyBoxOffer": [
+              "//div[@id = 'tab_desktop_buybox_group_1']/div[@class = 'a-box-inner']",
+              "//div[@id = 'buyBoxAccordion']",
+              "//div[@class = 'a-box a-last']/div[@class = 'a-box-inner']",
+              "//div[@class = 'a-box a-last']/div[contains(@class, 'a-box-inner')]"
+            ],
+            "buyBoxSalePrice": [".a-offscreen"],
+            "buyBoxFulfillment": ["div#fulfillerInfoFeature_feature_div span.offer-display-feature-text-message"],
+            "buyBoxSeller": ["div#merchantInfoFeature_feature_div span.offer-display-feature-text-message a"],
+            "offersPathMaxCount": 4
+          },
+          "GoogleShoppingPaths": {
+            "nextButtonXPaths": ["//TABLE[@class ='AaVjTc']//TD[contains(@class, 'd6cvqb') and contains(@class, 'BBwThe')]//Span[contains(text(),'Next')]"],
+            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
+            "googleShoppingImage": [".ArOc1c img"],
+            "googleShoppingTitle": [".tAxDx"],
+            "googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
+            "googleShoppingSeller": [".mnIHsc .shntl"],
+            "googleShoppingSellerName": [".aULzUe.IuHnof"],
+            "maxCount": 1,
+            "defaultNumberOfShopping": 20
+          },
+          "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
+        }
+      },
       "calculations": {
         "units": {
           "weight": "kg",
