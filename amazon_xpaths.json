@@ -694,13 +694,13 @@
           },
           "GoogleShoppingPaths": {
             "nextButtonXPaths": ["//TABLE[@class ='AaVjTc']//TD[contains(@class, 'd6cvqb') and contains(@class, 'BBwThe')]//Span[contains(text(),'Next')]"],
-            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
-            "googleShoppingImage": [".ArOc1c img"],
-            "googleShoppingTitle": [".tAxDx"],
-            "googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
+            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result","LI.I8iMf DIV.sg5mJb"],
+            "googleShoppingImage": [".ArOc1c img", "div.l1zqbf img"],
+            "googleShoppingTitle": [".tAxDx", "div.UC8ZCe.QS8Cxb div.gkQHve.SsM98d.RmEs5b"],
+            "googleShoppingSalePrice": [".a8Pemb.OFFNJ","span.lmQWe"],
             "googleShoppingSeller": [".mnIHsc .shntl"],
-            "googleShoppingSellerName": [".aULzUe.IuHnof"],
-            "maxCount": 1,
+            "googleShoppingSellerName": [".aULzUe.IuHnof", "span.WJMUdc.rw5ecc"],
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
@@ -3510,13 +3510,13 @@
           },
           "GoogleShoppingPaths": {
             "nextButtonXPaths": ["//TABLE[@class ='AaVjTc']//TD[contains(@class, 'd6cvqb') and contains(@class, 'BBwThe')]//Span[contains(text(),'Next')]"],
-            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
-            "googleShoppingImage": [".ArOc1c img"],
-            "googleShoppingTitle": [".tAxDx"],
-            "googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
+            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result","LI.I8iMf DIV.sg5mJb"],
+            "googleShoppingImage": [".ArOc1c img", "div.l1zqbf img"],
+            "googleShoppingTitle": [".tAxDx", "div.UC8ZCe.QS8Cxb div.gkQHve.SsM98d.RmEs5b"],
+            "googleShoppingSalePrice": [".a8Pemb.OFFNJ","span.lmQWe"],
             "googleShoppingSeller": [".mnIHsc .shntl"],
-            "googleShoppingSellerName": [".aULzUe.IuHnof"],
-            "maxCount": 1,
+            "googleShoppingSellerName": [".aULzUe.IuHnof", "span.WJMUdc.rw5ecc"],
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
@@ -6277,13 +6277,13 @@
           },
           "GoogleShoppingPaths": {
             "nextButtonXPaths": ["//TABLE[@class ='AaVjTc']//TD[contains(@class, 'd6cvqb') and contains(@class, 'BBwThe')]//Span[contains(text(),'Next')]"],
-            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result"],
-            "googleShoppingImage": [".ArOc1c img"],
-            "googleShoppingTitle": [".tAxDx"],
-            "googleShoppingSalePrice": [".a8Pemb.OFFNJ"],
+            "allGoogleShopping": [".sh-dgr__gr-auto.sh-dgr__grid-result","LI.I8iMf DIV.sg5mJb"],
+            "googleShoppingImage": [".ArOc1c img", "div.l1zqbf img"],
+            "googleShoppingTitle": [".tAxDx", "div.UC8ZCe.QS8Cxb div.gkQHve.SsM98d.RmEs5b"],
+            "googleShoppingSalePrice": [".a8Pemb.OFFNJ","span.lmQWe"],
             "googleShoppingSeller": [".mnIHsc .shntl"],
-            "googleShoppingSellerName": [".aULzUe.IuHnof"],
-            "maxCount": 1,
+            "googleShoppingSellerName": [".aULzUe.IuHnof", "span.WJMUdc.rw5ecc"],
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
