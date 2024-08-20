@@ -703,6 +703,18 @@
             "maxCount": 3,
             "defaultNumberOfShopping": 20
           },
+          "BingShoppingXPaths": {
+            "domain": "https://www.bing.com",
+            "nextButtonXPaths": [],
+            "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
+            "image": ["div.br-slideshow img"],
+            "title": ["div.br-title"],
+            "price": ["div.br-price"],
+            "sellerLink": ["li>div>a"],
+            "sellerName": ["div.br-sellerBlock"],
+            "maxCount": 1,
+            "defaultNumberOfShopping": 20
+          },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
         }
       },
@@ -3519,6 +3531,18 @@
             "maxCount": 3,
             "defaultNumberOfShopping": 20
           },
+          "BingShoppingXPaths": {
+            "domain": "https://www.bing.com",
+            "nextButtonXPaths": [],
+            "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
+            "image": ["div.br-slideshow img"],
+            "title": ["div.br-title"],
+            "price": ["div.br-price"],
+            "sellerLink": ["li>div>a"],
+            "sellerName": ["div.br-sellerBlock"],
+            "maxCount": 1,
+            "defaultNumberOfShopping": 20
+          },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
         }
       },
@@ -6284,6 +6308,18 @@
             "googleShoppingSeller": [".mnIHsc .shntl"],
             "googleShoppingSellerName": [".aULzUe.IuHnof", "span.WJMUdc.rw5ecc","span.WJMUdc"],
             "maxCount": 3,
+            "defaultNumberOfShopping": 20
+          },
+          "BingShoppingXPaths": {
+            "domain": "https://www.bing.com",
+            "nextButtonXPaths": [],
+            "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
+            "image": ["div.br-slideshow img"],
+            "title": ["div.br-title"],
+            "price": ["div.br-price"],
+            "sellerLink": ["li>div>a"],
+            "sellerName": ["div.br-sellerBlock"],
+            "maxCount": 1,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
