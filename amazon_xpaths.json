@@ -707,12 +707,12 @@
             "domain": "https://www.bing.com",
             "nextButtonXPaths": [],
             "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
-            "image": ["div.br-slideshow img"],
+            "image": ["div.br-slideshow img", "div.rms_iac"],
             "title": ["div.br-title"],
             "price": ["div.br-price"],
             "sellerLink": ["li>div>a"],
             "sellerName": ["div.br-sellerBlock"],
-            "maxCount": 1,
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
@@ -3535,12 +3535,12 @@
             "domain": "https://www.bing.com",
             "nextButtonXPaths": [],
             "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
-            "image": ["div.br-slideshow img"],
+            "image": ["div.br-slideshow img", "div.rms_iac"],
             "title": ["div.br-title"],
             "price": ["div.br-price"],
             "sellerLink": ["li>div>a"],
             "sellerName": ["div.br-sellerBlock"],
-            "maxCount": 1,
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
@@ -6314,12 +6314,12 @@
             "domain": "https://www.bing.com",
             "nextButtonXPaths": [],
             "cardsSelector": ["ol#br-freeOffersGridAboveMop li"],
-            "image": ["div.br-slideshow img"],
+            "image": ["div.br-slideshow img", "div.rms_iac"],
             "title": ["div.br-title"],
             "price": ["div.br-price"],
             "sellerLink": ["li>div>a"],
             "sellerName": ["div.br-sellerBlock"],
-            "maxCount": 1,
+            "maxCount": 2,
             "defaultNumberOfShopping": 20
           },
           "sellerIdXPaths": ["//*[contains(@id, 'merchantID')]/@value"]
