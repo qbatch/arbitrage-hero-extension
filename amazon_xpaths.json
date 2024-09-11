@@ -11960,6 +11960,48 @@
                     "percentage": 12
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 15
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -11999,6 +12041,15 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12059,6 +12110,25 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12111,6 +12181,25 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12160,6 +12249,15 @@
                     "percentage": 12
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 15
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12199,6 +12297,28 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -12383,6 +12503,15 @@
                   }
                 ],
                 "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12452,6 +12581,20 @@
                   }
                 ],
                 "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -12465,6 +12608,15 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12825,6 +12977,29 @@
                   }
                 ],
                 "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12838,6 +13013,34 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -12877,6 +13080,43 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -13085,6 +13325,20 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -13124,6 +13378,38 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -13176,6 +13462,66 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 15
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -13202,6 +13548,48 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 12
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -13228,6 +13616,39 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 15,
+                    "percentage": 5
+                  },
+                  {
+                    "min": 15,
+                    "max": 20,
+                    "percentage": 10
+                  },
+                  {
+                    "min": 20,
+                    "percentage": 17
+                  }
+                ],
+                "isPortion": false
               }
             ],
             "minReferral": 0.3
@@ -13241,6 +13662,29 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0
@@ -13293,6 +13737,20 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -13319,6 +13777,30 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": false
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
@@ -13441,6 +13923,20 @@
                     "percentage": 15
                   }
                 ]
+              },
+              {
+                "valuesArray": [
+                  {
+                    "min": 0,
+                    "max": 100,
+                    "percentage": 15
+                  },
+                  {
+                    "min": 100,
+                    "percentage": 8
+                  }
+                ],
+                "isPortion": true
               }
             ],
             "minReferral": 0.3
