@@ -221,63 +221,63 @@
 
         "fbaInboundPlacementFee": {
           "default": {
-            "fees": { "Minimum": 0, "Partial": 0, "Optimized": 0 }
+            "fees": { "minimum": 0, "partial": 0, "optimized": 0 }
           },
           "unitWeightTiers": ["Small standard"],
           "Small standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.251,
-              "fees": { "Minimum": 0.3, "Partial": 0.21, "Optimized": 0 }
+              "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
             }
           ],
           "Large standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.75,
-              "fees": { "Minimum": 0.34, "Partial": 0.24, "Optimized": 0 }
+              "fees": { "minimum": 0.34, "partial": 0.24, "optimized": 0 }
             },
             {
               "minWeight": 0.75,
               "maxWeight": 1.5,
-              "fees": { "Minimum": 0.41, "Partial": 0.28, "Optimized": 0 }
+              "fees": { "minimum": 0.41, "partial": 0.28, "optimized": 0 }
             },
             {
               "minWeight": 1.5,
               "maxWeight": 3,
-              "fees": { "Minimum": 0.49, "Partial": 0.34, "Optimized": 0 }
+              "fees": { "minimum": 0.49, "partial": 0.34, "optimized": 0 }
             },
             {
               "minWeight": 3,
               "maxWeight": 20,
-              "fees": { "Minimum": 0.68, "Partial": 0.48, "Optimized": 0 }
+              "fees": { "minimum": 0.68, "partial": 0.48, "optimized": 0 }
             }
           ],
           "Large bulky Oversize": [
             {
               "minWeight": 0,
               "maxWeight": 5,
-              "fees": { "Minimum": 2.67, "Partial": 1.48, "Optimized": 0 }
+              "fees": { "minimum": 2.67, "partial": 1.48, "optimized": 0 }
             },
             {
               "minWeight": 5,
               "maxWeight": 12,
-              "fees": { "Minimum": 3.15, "Partial": 1.75, "Optimized": 0 }
+              "fees": { "minimum": 3.15, "partial": 1.75, "optimized": 0 }
             },
             {
               "minWeight": 12,
               "maxWeight": 28,
-              "fees": { "Minimum": 3.95, "Partial": 2.19, "Optimized": 0 }
+              "fees": { "minimum": 3.95, "partial": 2.19, "optimized": 0 }
             },
             {
               "minWeight": 28,
               "maxWeight": 42,
-              "fees": { "Minimum": 5.11, "Partial": 2.83, "Optimized": 0 }
+              "fees": { "minimum": 5.11, "partial": 2.83, "optimized": 0 }
             },
             {
               "minWeight": 42,
               "maxWeight": 50,
-              "fees": { "Minimum": 6.0, "Partial": 3.32, "Optimized": 0 }
+              "fees": { "minimum": 6.0, "partial": 3.32, "optimized": 0 }
             }
           ]
         },
@@ -3112,63 +3112,63 @@
 
         "fbaInboundPlacementFee": {
           "default": {
-            "fees": { "Minimum": 0, "Partial": 0, "Optimized": 0 }
+            "fees": { "minimum": 0, "partial": 0, "optimized": 0 }
           },
           "unitWeightTiers": ["Small standard"],
           "Small standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.251,
-              "fees": { "Minimum": 0.3, "Partial": 0.21, "Optimized": 0 }
+              "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
             }
           ],
           "Large standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.75,
-              "fees": { "Minimum": 0.34, "Partial": 0.24, "Optimized": 0 }
+              "fees": { "minimum": 0.34, "partial": 0.24, "optimized": 0 }
             },
             {
               "minWeight": 0.75,
               "maxWeight": 1.5,
-              "fees": { "Minimum": 0.41, "Partial": 0.28, "Optimized": 0 }
+              "fees": { "minimum": 0.41, "partial": 0.28, "optimized": 0 }
             },
             {
               "minWeight": 1.5,
               "maxWeight": 3,
-              "fees": { "Minimum": 0.49, "Partial": 0.34, "Optimized": 0 }
+              "fees": { "minimum": 0.49, "partial": 0.34, "optimized": 0 }
             },
             {
               "minWeight": 3,
               "maxWeight": 20,
-              "fees": { "Minimum": 0.68, "Partial": 0.48, "Optimized": 0 }
+              "fees": { "minimum": 0.68, "partial": 0.48, "optimized": 0 }
             }
           ],
           "Large bulky Oversize": [
             {
               "minWeight": 0,
               "maxWeight": 5,
-              "fees": { "Minimum": 2.67, "Partial": 1.48, "Optimized": 0 }
+              "fees": { "minimum": 2.67, "partial": 1.48, "optimized": 0 }
             },
             {
               "minWeight": 5,
               "maxWeight": 12,
-              "fees": { "Minimum": 3.15, "Partial": 1.75, "Optimized": 0 }
+              "fees": { "minimum": 3.15, "partial": 1.75, "optimized": 0 }
             },
             {
               "minWeight": 12,
               "maxWeight": 28,
-              "fees": { "Minimum": 3.95, "Partial": 2.19, "Optimized": 0 }
+              "fees": { "minimum": 3.95, "partial": 2.19, "optimized": 0 }
             },
             {
               "minWeight": 28,
               "maxWeight": 42,
-              "fees": { "Minimum": 5.11, "Partial": 2.83, "Optimized": 0 }
+              "fees": { "minimum": 5.11, "partial": 2.83, "optimized": 0 }
             },
             {
               "minWeight": 42,
               "maxWeight": 50,
-              "fees": { "Minimum": 6.0, "Partial": 3.32, "Optimized": 0 }
+              "fees": { "minimum": 6.0, "partial": 3.32, "optimized": 0 }
             }
           ]
         },
