@@ -227,7 +227,7 @@
           "Small standard": [
             {
               "minWeight": 0,
-              "maxWeight": 0.251,
+              "maxWeight": 1,
               "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
             }
           ],
@@ -3118,7 +3118,7 @@
           "Small standard": [
             {
               "minWeight": 0,
-              "maxWeight": 0.251,
+              "maxWeight": 1,
               "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
             }
           ],
