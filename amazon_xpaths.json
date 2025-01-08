@@ -2865,7 +2865,8 @@
         "amzSearchImage": ["[data-component-type='s-product-image'] img"],
         "amzSearchPrice": [".a-offscreen"],
         "amzSearchCount": 1
-      }
+      },
+      "titleXPaths": [ "meta[property='og:title']", "meta[name='title']", "meta[name='twitter:title']", "meta[name='DC.title']", "meta[http-equiv='title']", "title" ]
     },
     "urls": {
       "arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
