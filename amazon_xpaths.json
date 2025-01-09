@@ -2865,7 +2865,7 @@
         "amzSearchTitle": ["h2 > a > span", "h2 > span"],
         "amzSearchImage": ["[data-component-type='s-product-image'] img"],
         "amzSearchPrice": [".a-offscreen"],
-        "amzSearchCount": 1
+        "amzSearchCount": 2
       },
       "titleXPaths": [ "meta[property='og:title']", "meta[name='title']", "meta[name='twitter:title']", "meta[name='DC.title']", "meta[http-equiv='title']", "title" ]
     },
