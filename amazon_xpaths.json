@@ -2844,6 +2844,9 @@
       ]
     },
 
+    "slackHookURLReferral": "https://hooks.slack.com/services/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",
+    "slackHookURLExceptions": "https://hooks.slack.com/services/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",
+
     "storePage": {
       "costPriceXPaths": [
         "//meta[@itemprop='price']/@content",
