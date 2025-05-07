@@ -3526,8 +3526,8 @@
         "Video Games and Gaming Accessories"
       ]
     },
-    "slackHookURLReferral": "https://hooks.slack.com/services/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",
-    "slackHookURLExceptions": "https://hooks.slack.com/services/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",
+    "slackHookURLReferral": "https://hooks.slack.com/services/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",
+    "slackHookURLExceptions": "https://hooks.slack.com/services/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",
     "storePage": {
       "costPriceXPaths": [
         "//meta[@itemprop='price']/@content",
