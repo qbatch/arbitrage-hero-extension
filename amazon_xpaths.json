@@ -3,7 +3,12 @@
     "default": {
       "marketplaceID": "ATVPDKIKX0DER",
       "xPaths": {
-        "list_page_container": [ "//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]", "//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
+        "list_page_container": [
+          "//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]",
+          "//div[@data-component-type='s-search-result']",
+          "//div[contains(@data-component-type, 'search-result')]",
+          "//ol[@class = 'a-carousel']/li"
+        ],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
         "list_page_subcontainer": [".a-row.a-ws-row", ".a-section.a-spacing-small", ".a-section"],
@@ -106,112 +111,272 @@
         "dimensionalWeightDivider": 139,
         "outOfBoundLowFbaFee": 0.77,
         "isVatTax": false,
-
         "productTier": {
           "fba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small standard",
-
                 "conditions": [
-                  { "key": "unitWeight", "value": 1, "operator": "<=" },
-                  { "key": "longestSide", "value": 15, "operator": "<=" },
-                  { "key": "medianSide", "value": 12, "operator": "<=" },
-                  { "key": "shortestSide", "value": 0.75, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 12,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 0.75,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large standard",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 20, "operator": "<=" },
-                  { "key": "longestSide", "value": 18, "operator": "<=" },
-                  { "key": "medianSide", "value": 14, "operator": "<=" },
-                  { "key": "shortestSide", "value": 8, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 18,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 14,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 8,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large bulky Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-                  { "key": "longestSide", "value": 59, "operator": "<=" },
-                  { "key": "medianSide", "value": 33, "operator": "<=" },
-                  { "key": "shortestSide", "value": 33, "operator": "<=" },
-                  { "key": "lengthPlusGirth", "value": 130, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 59,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "lengthPlusGirth",
+                    "value": 130,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra-large 0 to 50 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 50+ to 70 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": ">" },
-                  { "key": "shippingWeight", "value": 70, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 70+ to 150 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 70, "operator": ">" },
-                  { "key": "shippingWeight", "value": 150, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 150+ lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 150, "operator": ">" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": ">"
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
@@ -220,70 +385,112 @@
           },
           "lowFba": null
         },
-
         "fbaInboundPlacementFee": {
           "default": {
-            "fees": { "minimum": 0, "partial": 0, "optimized": 0 }
+            "fees": {
+              "minimum": 0,
+              "partial": 0,
+              "optimized": 0
+            }
           },
           "unitWeightTiers": ["Small standard"],
           "Small standard": [
             {
               "minWeight": 0,
               "maxWeight": 1,
-              "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
+              "fees": {
+                "minimum": 0.3,
+                "partial": 0.21,
+                "optimized": 0
+              }
             }
           ],
           "Large standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.75,
-              "fees": { "minimum": 0.34, "partial": 0.24, "optimized": 0 }
+              "fees": {
+                "minimum": 0.34,
+                "partial": 0.24,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 0.75,
               "maxWeight": 1.5,
-              "fees": { "minimum": 0.41, "partial": 0.28, "optimized": 0 }
+              "fees": {
+                "minimum": 0.41,
+                "partial": 0.28,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 1.5,
               "maxWeight": 3,
-              "fees": { "minimum": 0.49, "partial": 0.34, "optimized": 0 }
+              "fees": {
+                "minimum": 0.49,
+                "partial": 0.34,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 3,
               "maxWeight": 20,
-              "fees": { "minimum": 0.68, "partial": 0.48, "optimized": 0 }
+              "fees": {
+                "minimum": 0.68,
+                "partial": 0.48,
+                "optimized": 0
+              }
             }
           ],
           "Large bulky Oversize": [
             {
               "minWeight": 0,
               "maxWeight": 5,
-              "fees": { "minimum": 2.67, "partial": 1.48, "optimized": 0 }
+              "fees": {
+                "minimum": 2.67,
+                "partial": 1.48,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 5,
               "maxWeight": 12,
-              "fees": { "minimum": 3.15, "partial": 1.75, "optimized": 0 }
+              "fees": {
+                "minimum": 3.15,
+                "partial": 1.75,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 12,
               "maxWeight": 28,
-              "fees": { "minimum": 3.95, "partial": 2.19, "optimized": 0 }
+              "fees": {
+                "minimum": 3.95,
+                "partial": 2.19,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 28,
               "maxWeight": 42,
-              "fees": { "minimum": 5.11, "partial": 2.83, "optimized": 0 }
+              "fees": {
+                "minimum": 5.11,
+                "partial": 2.83,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 42,
               "maxWeight": 50,
-              "fees": { "minimum": 6.0, "partial": 3.32, "optimized": 0 }
+              "fees": {
+                "minimum": 6,
+                "partial": 3.32,
+                "optimized": 0
+              }
             }
           ]
         },
-
         "fba": {
           "apparel": {
             "weightDivision": {
@@ -635,7 +842,6 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFba": {
           "apparel": {
             "weightDivision": {
@@ -987,12 +1193,10 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<"
         },
-
         "extraFulfilment": [
           {
             "titleMatchKeyWords": ["Battery", "battery", "batteries", "Batteries", "Rechargeable", "rechargeable", "Wireless", "wireless"],
@@ -1002,9 +1206,19 @@
             "lowFbaFee": 0.11
           }
         ],
-
-        "storageFee": { "cubicFeetConversion": 1728, "ranges": { "standard": { "jan_sep": 0.87, "oct_dec": 2.4 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.4 } } },
-
+        "storageFee": {
+          "cubicFeetConversion": 1728,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.87,
+              "oct_dec": 2.4
+            },
+            "oversize": {
+              "jan_sep": 0.56,
+              "oct_dec": 1.4
+            }
+          }
+        },
         "closingFee": [
           {
             "feeValue": 1.8,
@@ -1042,7 +1256,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -2730,7 +2943,6 @@
                 ]
               }
             ],
-
             "minReferral": 0.3
           }
         }
@@ -2748,7 +2960,6 @@
         "Footwear"
       ],
       "portionCategories": ["Compact Appliances", "Electronics Accessories", "Fine Art", "Furniture", "Jewelry", "Watches"],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
@@ -2843,10 +3054,8 @@
         "Video Games and Gaming Accessories"
       ]
     },
-
     "slackHookURLReferral": "https://hooks.slack.com/services/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",
     "slackHookURLExceptions": "https://hooks.slack.com/services/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",
-
     "storePage": {
       "costPriceXPaths": [
         "//meta[@itemprop='price']/@content",
@@ -2870,7 +3079,7 @@
         "amzSearchPrice": [".a-offscreen"],
         "amzSearchCount": 2
       },
-      "titleXPaths": [ "meta[property='og:title']", "meta[name='title']", "meta[name='twitter:title']", "meta[name='DC.title']", "meta[http-equiv='title']", "title" ]
+      "titleXPaths": ["meta[property='og:title']", "meta[name='title']", "meta[name='twitter:title']", "meta[name='DC.title']", "meta[http-equiv='title']", "title"]
     },
     "urls": {
       "arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
@@ -2879,28 +3088,73 @@
       "arbitrage_reverse_search_fallback": "https://app.arbitragehero.com/private/endpoint/api/",
       "arbitrage_website": "https://arbitragehero.com"
     },
-
     "auth_key": "ZmQxNmU2MjAtYmR4dC0xY2M0LTMxOWEtYzU1N242czFpYm9u",
-
     "domainMappings": {
-      "com": { "symbol": "$", "market": 1, "value": "US" },
-      "co.uk": { "symbol": "£", "market": 2, "value": "UK" },
-      "de": { "symbol": "€", "market": 3, "value": "DE" },
-      "fr": { "symbol": "€", "market": 4, "value": "FR" },
-      "co.jp": { "symbol": "¥", "market": 5, "value": "JP" },
-      "ca": { "symbol": "$", "market": 6, "value": "CA" },
-      "it": { "symbol": "€", "market": 8, "value": "IT" },
-      "es": { "symbol": "€", "market": 9, "value": "ES" },
-      "in": { "symbol": "₹", "market": 10, "value": "IN" }
+      "com": {
+        "symbol": "$",
+        "market": 1,
+        "value": "US"
+      },
+      "co.uk": {
+        "symbol": "£",
+        "market": 2,
+        "value": "UK"
+      },
+      "de": {
+        "symbol": "€",
+        "market": 3,
+        "value": "DE"
+      },
+      "fr": {
+        "symbol": "€",
+        "market": 4,
+        "value": "FR"
+      },
+      "co.jp": {
+        "symbol": "¥",
+        "market": 5,
+        "value": "JP"
+      },
+      "ca": {
+        "symbol": "$",
+        "market": 6,
+        "value": "CA"
+      },
+      "it": {
+        "symbol": "€",
+        "market": 8,
+        "value": "IT"
+      },
+      "es": {
+        "symbol": "€",
+        "market": 9,
+        "value": "ES"
+      },
+      "in": {
+        "symbol": "₹",
+        "market": 10,
+        "value": "IN"
+      }
     },
     "profitCalculatorCountryCodes": {
-      "US": { "countryCode": "US", "currency": "USD" },
-      "UK": { "countryCode": "GB", "currency": "GBP" }
+      "US": {
+        "countryCode": "US",
+        "currency": "USD"
+      },
+      "UK": {
+        "countryCode": "GB",
+        "currency": "GBP"
+      }
     },
     "US": {
       "marketplaceID": "ATVPDKIKX0DER",
       "xPaths": {
-        "list_page_container": ["//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]", "//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
+        "list_page_container": [
+          "//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]",
+          "//div[@data-component-type='s-search-result']",
+          "//div[contains(@data-component-type, 'search-result')]",
+          "//ol[@class = 'a-carousel']/li"
+        ],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
         "list_page_subcontainer": [".a-row.a-ws-row", ".a-section.a-spacing-small", ".a-section"],
@@ -3003,112 +3257,272 @@
         "dimensionalWeightDivider": 139,
         "outOfBoundLowFbaFee": 0.77,
         "isVatTax": false,
-
         "productTier": {
           "fba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small standard",
-
                 "conditions": [
-                  { "key": "unitWeight", "value": 1, "operator": "<=" },
-                  { "key": "longestSide", "value": 15, "operator": "<=" },
-                  { "key": "medianSide", "value": 12, "operator": "<=" },
-                  { "key": "shortestSide", "value": 0.75, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 12,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 0.75,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large standard",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 20, "operator": "<=" },
-                  { "key": "longestSide", "value": 18, "operator": "<=" },
-                  { "key": "medianSide", "value": 14, "operator": "<=" },
-                  { "key": "shortestSide", "value": 8, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 18,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 14,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 8,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large bulky Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-                  { "key": "longestSide", "value": 59, "operator": "<=" },
-                  { "key": "medianSide", "value": 33, "operator": "<=" },
-                  { "key": "shortestSide", "value": 33, "operator": "<=" },
-                  { "key": "lengthPlusGirth", "value": 130, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 59,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "lengthPlusGirth",
+                    "value": 130,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra-large 0 to 50 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 50+ to 70 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": ">" },
-                  { "key": "shippingWeight", "value": 70, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 70+ to 150 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 70, "operator": ">" },
-                  { "key": "shippingWeight", "value": 150, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 150+ lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 150, "operator": ">" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": ">"
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
@@ -3117,70 +3531,112 @@
           },
           "lowFba": null
         },
-
         "fbaInboundPlacementFee": {
           "default": {
-            "fees": { "minimum": 0, "partial": 0, "optimized": 0 }
+            "fees": {
+              "minimum": 0,
+              "partial": 0,
+              "optimized": 0
+            }
           },
           "unitWeightTiers": ["Small standard"],
           "Small standard": [
             {
               "minWeight": 0,
               "maxWeight": 1,
-              "fees": { "minimum": 0.3, "partial": 0.21, "optimized": 0 }
+              "fees": {
+                "minimum": 0.3,
+                "partial": 0.21,
+                "optimized": 0
+              }
             }
           ],
           "Large standard": [
             {
               "minWeight": 0,
               "maxWeight": 0.75,
-              "fees": { "minimum": 0.34, "partial": 0.24, "optimized": 0 }
+              "fees": {
+                "minimum": 0.34,
+                "partial": 0.24,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 0.75,
               "maxWeight": 1.5,
-              "fees": { "minimum": 0.41, "partial": 0.28, "optimized": 0 }
+              "fees": {
+                "minimum": 0.41,
+                "partial": 0.28,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 1.5,
               "maxWeight": 3,
-              "fees": { "minimum": 0.49, "partial": 0.34, "optimized": 0 }
+              "fees": {
+                "minimum": 0.49,
+                "partial": 0.34,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 3,
               "maxWeight": 20,
-              "fees": { "minimum": 0.68, "partial": 0.48, "optimized": 0 }
+              "fees": {
+                "minimum": 0.68,
+                "partial": 0.48,
+                "optimized": 0
+              }
             }
           ],
           "Large bulky Oversize": [
             {
               "minWeight": 0,
               "maxWeight": 5,
-              "fees": { "minimum": 2.67, "partial": 1.48, "optimized": 0 }
+              "fees": {
+                "minimum": 2.67,
+                "partial": 1.48,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 5,
               "maxWeight": 12,
-              "fees": { "minimum": 3.15, "partial": 1.75, "optimized": 0 }
+              "fees": {
+                "minimum": 3.15,
+                "partial": 1.75,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 12,
               "maxWeight": 28,
-              "fees": { "minimum": 3.95, "partial": 2.19, "optimized": 0 }
+              "fees": {
+                "minimum": 3.95,
+                "partial": 2.19,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 28,
               "maxWeight": 42,
-              "fees": { "minimum": 5.11, "partial": 2.83, "optimized": 0 }
+              "fees": {
+                "minimum": 5.11,
+                "partial": 2.83,
+                "optimized": 0
+              }
             },
             {
               "minWeight": 42,
               "maxWeight": 50,
-              "fees": { "minimum": 6.0, "partial": 3.32, "optimized": 0 }
+              "fees": {
+                "minimum": 6,
+                "partial": 3.32,
+                "optimized": 0
+              }
             }
           ]
         },
-
         "fba": {
           "apparel": {
             "weightDivision": {
@@ -3532,7 +3988,6 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFba": {
           "apparel": {
             "weightDivision": {
@@ -3884,12 +4339,10 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<"
         },
-
         "extraFulfilment": [
           {
             "titleMatchKeyWords": ["Battery", "battery", "batteries", "Batteries", "Rechargeable", "rechargeable", "Wireless", "wireless"],
@@ -3899,9 +4352,19 @@
             "lowFbaFee": 0.11
           }
         ],
-
-        "storageFee": { "cubicFeetConversion": 1728, "ranges": { "standard": { "jan_sep": 0.87, "oct_dec": 2.4 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.4 } } },
-
+        "storageFee": {
+          "cubicFeetConversion": 1728,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.87,
+              "oct_dec": 2.4
+            },
+            "oversize": {
+              "jan_sep": 0.56,
+              "oct_dec": 1.4
+            }
+          }
+        },
         "closingFee": [
           {
             "feeValue": 1.8,
@@ -3939,7 +4402,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -5808,7 +6270,6 @@
                   {
                     "min": 0,
                     "max": 100,
-
                     "percentage": 15
                   },
                   {
@@ -6123,7 +6584,6 @@
                 ]
               }
             ],
-
             "minReferral": 0.3
           }
         }
@@ -6141,7 +6601,6 @@
         "Footwear"
       ],
       "portionCategories": ["Compact Appliances", "Electronics Accessories", "Fine Art", "Furniture", "Jewelry", "Watches"],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
@@ -6236,11 +6695,15 @@
         "Video Games and Gaming Accessories"
       ]
     },
-
     "UK": {
       "marketplaceID": "A1F83G8C2ARO7P",
       "xPaths": {
-        "list_page_container": ["//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]","//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
+        "list_page_container": [
+          "//div[@data-component-type='s-search-result'] | //ol[contains(@class, 'a-carousel')]//div[@data-asin]",
+          "//div[@data-component-type='s-search-result']",
+          "//div[contains(@data-component-type, 'search-result')]",
+          "//ol[@class = 'a-carousel']/li"
+        ],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
         "list_page_subcontainer": [".a-row.a-ws-row", ".a-section.a-spacing-small", ".a-section"],
@@ -6345,7 +6808,6 @@
         "isVatTax": true,
         "vatFlatRate": 11,
         "vatTax": 20,
-
         "productTier": {
           "fba": {
             "defaultTier": "Special Oversize",
@@ -6353,85 +6815,241 @@
               {
                 "tier": "Small Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.08, "operator": "<=" },
-                  { "key": "longestSide", "value": 20, "operator": "<=" },
-                  { "key": "medianSide", "value": 15, "operator": "<=" },
-                  { "key": "shortestSide", "value": 1, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.08,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 1,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.46, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 4, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 4,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 6, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 6,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 3.9, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 3.9,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 11.9, "operator": "<=" },
-                  { "key": "longestSide", "value": 45, "operator": "<=" },
-                  { "key": "medianSide", "value": 34, "operator": "<=" },
-                  { "key": "shortestSide", "value": 26, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 11.9,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 45,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 34,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 26,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 1.76, "operator": "<=" },
-                  { "key": "dimensionalWeight", "value": 25.82, "operator": "<=" },
-                  { "key": "longestSide", "value": 61, "operator": "<=" },
-                  { "key": "medianSide", "value": 46, "operator": "<=" },
-                  { "key": "shortestSide", "value": 46, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1.76,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "dimensionalWeight",
+                    "value": 25.82,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 61,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 46,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 29.76, "operator": "<=" },
-                  { "key": "dimensionalWeight", "value": 86.4, "operator": "<=" },
-                  { "key": "longestSide", "value": 120, "operator": "<=" },
-                  { "key": "medianSide", "value": 60, "operator": "<=" },
-                  { "key": "shortestSide", "value": 60, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 29.76,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "dimensionalWeight",
+                    "value": 86.4,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 120,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 60,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 60,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 31.5, "operator": "<=" },
-                  { "key": "longestSide", "value": 120, "operator": ">" },
-                  { "key": "longestSide", "value": 175, "operator": "<=" },
-                  { "key": "medianSide", "value": 60, "operator": ">" },
-                  { "key": "shortestSide", "value": 60, "operator": ">" }
+                  {
+                    "key": "unitWeight",
+                    "value": 31.5,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 120,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 175,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 60,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 60,
+                    "operator": ">"
+                  }
                 ]
               },
               {
@@ -6439,97 +7057,234 @@
                 "conditions": [
                   {
                     "alternateConditions": [
-                      { "key": "unitWeight", "value": 31.5, "operator": ">" },
-                      { "key": "longestSide", "value": 175, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 360, "operator": ">" }
+                      {
+                        "key": "unitWeight",
+                        "value": 31.5,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "longestSide",
+                        "value": 175,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 360,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               }
             ]
           },
-
           "lowFba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.08, "operator": "<=" },
-                  { "key": "longestSide", "value": 20, "operator": "<=" },
-                  { "key": "medianSide", "value": 15, "operator": "<=" },
-                  { "key": "shortestSide", "value": 1, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.08,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 1,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.06, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.06,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.21, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.21,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.46, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 4, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 4,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 6, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 6,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.15, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.4, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.4,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               }
             ]
           }
         },
-
         "fbaInboundPlacementFee": {},
-
         "fba": {
           "normal": {
             "weightDivision": {
@@ -6732,7 +7487,6 @@
                 "extraWeightLimit": "1.76"
               }
             ],
-
             "Standard Oversize": [
               {
                 "minWeight": "0",
@@ -6863,7 +7617,6 @@
                 "extraWeightLimit": "31.50"
               }
             ],
-
             "Special Oversize": [
               {
                 "minWeight": "0",
@@ -6909,10 +7662,8 @@
               }
             ]
           },
-
           "unitWeightTiers": ["Small Envelope", "Standard Envelope", "Large Envelope", "Extra Large Envelope", "Special Oversize"]
         },
-
         "lowFba": {
           "normal": {
             "weightDivision": {
@@ -6988,17 +7739,29 @@
           },
           "unitWeightTiers": ["Small Envelope", "Standard Envelope", "Large Envelope", "Extra Large Envelope", "Small Parcel"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<="
         },
-
         "extraFulfilment": [],
-
-        "storageFee": { "cubicFeetConversion": 28316.8, "ranges": { "standard": { "jan_sep": 0.78, "oct_dec": 1.1 }, "oversize": { "jan_sep": 0.46, "oct_dec": 0.64 } } },
+        "storageFee": {
+          "cubicFeetConversion": 28316.8,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.78,
+              "oct_dec": 1.1
+            },
+            "oversize": {
+              "jan_sep": 0.46,
+              "oct_dec": 0.64
+            }
+          }
+        },
         "closingFee": [
-          { "feeValue": 1, "categories": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"] },
+          {
+            "feeValue": 1,
+            "categories": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"]
+          },
           {
             "feeValue": 0.5,
             "categories": [
@@ -7035,7 +7798,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -8698,7 +9460,6 @@
         "Jewellery",
         "Watches"
       ],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
@@ -8786,15 +9547,16 @@
       ]
     }
   },
-
-  "1.0.4": {
+  "1.0.6": {
     "default": {
       "marketplaceID": "ATVPDKIKX0DER",
       "xPaths": {
         "list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
-        "list_page_subcontainer": [".a-section.a-spacing-small"],
+        "list_page_subcontainer": [".a-section.a-spacing-small", ".a-section"],
+        "list_page_title_selectors": ["h2 > a > span", "a > h2 > span"],
+        "list_page_no_result": ["//div[contains(@class, '-no-results')]"],
         "detail_page_subcontainer": ["//div[@id='rightCol']", "//div[contains(@class,'Col-bbcxoverride')]", "//div[@data-feature-name='desktop_buybox']", "//div[@id='desktop_buybox']"],
         "detail_page_middle_container": ["//div[@id = 'centerCol']//div[@id = 'title_feature_div']", "//div[@id = 'centerCol']//div[contains(@id , 'title') and contains(@id,'_feature_div')]"],
         "page_not_found": ["//img[contains(@src, '/error/') and @id = 'd']"],
@@ -8892,112 +9654,272 @@
         "dimensionalWeightDivider": 139,
         "outOfBoundLowFbaFee": 0.77,
         "isVatTax": false,
-
         "productTier": {
           "fba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small standard",
-
                 "conditions": [
-                  { "key": "unitWeight", "value": 1, "operator": "<=" },
-                  { "key": "longestSide", "value": 15, "operator": "<=" },
-                  { "key": "medianSide", "value": 12, "operator": "<=" },
-                  { "key": "shortestSide", "value": 0.75, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 12,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 0.75,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large standard",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 20, "operator": "<=" },
-                  { "key": "longestSide", "value": 18, "operator": "<=" },
-                  { "key": "medianSide", "value": 14, "operator": "<=" },
-                  { "key": "shortestSide", "value": 8, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 18,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 14,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 8,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large bulky Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-                  { "key": "longestSide", "value": 59, "operator": "<=" },
-                  { "key": "medianSide", "value": 33, "operator": "<=" },
-                  { "key": "shortestSide", "value": 33, "operator": "<=" },
-                  { "key": "lengthPlusGirth", "value": 130, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 59,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "lengthPlusGirth",
+                    "value": 130,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra-large 0 to 50 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 50+ to 70 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": ">" },
-                  { "key": "shippingWeight", "value": 70, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 70+ to 150 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 70, "operator": ">" },
-                  { "key": "shippingWeight", "value": 150, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 150+ lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 150, "operator": ">" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": ">"
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
@@ -9006,7 +9928,112 @@
           },
           "lowFba": null
         },
-
+        "fbaInboundPlacementFee": {
+          "default": {
+            "fees": {
+              "minimum": 0,
+              "partial": 0,
+              "optimized": 0
+            }
+          },
+          "unitWeightTiers": ["Small standard"],
+          "Small standard": [
+            {
+              "minWeight": 0,
+              "maxWeight": 1,
+              "fees": {
+                "minimum": 0.3,
+                "partial": 0.21,
+                "optimized": 0
+              }
+            }
+          ],
+          "Large standard": [
+            {
+              "minWeight": 0,
+              "maxWeight": 0.75,
+              "fees": {
+                "minimum": 0.34,
+                "partial": 0.24,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 0.75,
+              "maxWeight": 1.5,
+              "fees": {
+                "minimum": 0.41,
+                "partial": 0.28,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 1.5,
+              "maxWeight": 3,
+              "fees": {
+                "minimum": 0.49,
+                "partial": 0.34,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 3,
+              "maxWeight": 20,
+              "fees": {
+                "minimum": 0.68,
+                "partial": 0.48,
+                "optimized": 0
+              }
+            }
+          ],
+          "Large bulky Oversize": [
+            {
+              "minWeight": 0,
+              "maxWeight": 5,
+              "fees": {
+                "minimum": 2.67,
+                "partial": 1.48,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 5,
+              "maxWeight": 12,
+              "fees": {
+                "minimum": 3.15,
+                "partial": 1.75,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 12,
+              "maxWeight": 28,
+              "fees": {
+                "minimum": 3.95,
+                "partial": 2.19,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 28,
+              "maxWeight": 42,
+              "fees": {
+                "minimum": 5.11,
+                "partial": 2.83,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 42,
+              "maxWeight": 50,
+              "fees": {
+                "minimum": 6,
+                "partial": 3.32,
+                "optimized": 0
+              }
+            }
+          ]
+        },
         "fba": {
           "apparel": {
             "weightDivision": {
@@ -9358,7 +10385,6 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFba": {
           "apparel": {
             "weightDivision": {
@@ -9710,12 +10736,10 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<"
         },
-
         "extraFulfilment": [
           {
             "titleMatchKeyWords": ["Battery", "battery", "batteries", "Batteries", "Rechargeable", "rechargeable", "Wireless", "wireless"],
@@ -9725,9 +10749,19 @@
             "lowFbaFee": 0.11
           }
         ],
-
-        "storageFee": { "cubicFeetConversion": 1728, "ranges": { "standard": { "jan_sep": 0.87, "oct_dec": 2.4 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.4 } } },
-
+        "storageFee": {
+          "cubicFeetConversion": 1728,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.87,
+              "oct_dec": 2.4
+            },
+            "oversize": {
+              "jan_sep": 0.56,
+              "oct_dec": 1.4
+            }
+          }
+        },
         "closingFee": [
           {
             "feeValue": 1.8,
@@ -9765,7 +10799,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -11453,7 +12486,6 @@
                 ]
               }
             ],
-
             "minReferral": 0.3
           }
         }
@@ -11471,7 +12503,6 @@
         "Footwear"
       ],
       "portionCategories": ["Compact Appliances", "Electronics Accessories", "Fine Art", "Furniture", "Jewelry", "Watches"],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
@@ -11566,7 +12597,8 @@
         "Video Games and Gaming Accessories"
       ]
     },
-
+    "slackHookURLReferral": "https://hooks.slack.com/services/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",
+    "slackHookURLExceptions": "https://hooks.slack.com/services/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",
     "storePage": {
       "costPriceXPaths": [
         "//meta[@itemprop='price']/@content",
@@ -11585,11 +12617,12 @@
           "//SPAN[@class ='s-pagination-strip']//SPAN[contains(@class, 's-pagination-item') and contains(@class, 's-pagination-next') and contains(@class, 's-pagination-disabled') and contains(text(),'Next')]"
         ],
         "amzSearchAsin": ["data-asin"],
-        "amzSearchTitle": ["h2 > a > span"],
+        "amzSearchTitle": ["h2 > a > span", "h2 > span"],
         "amzSearchImage": ["[data-component-type='s-product-image'] img"],
         "amzSearchPrice": [".a-offscreen"],
-        "amzSearchCount": 1
-      }
+        "amzSearchCount": 2
+      },
+      "titleXPaths": ["meta[property='og:title']", "meta[name='title']", "meta[name='twitter:title']", "meta[name='DC.title']", "meta[http-equiv='title']", "title"]
     },
     "urls": {
       "arbitrage_authenticate_api": "https://api.ahonline.top/private/endpoint/api/",
@@ -11598,23 +12631,63 @@
       "arbitrage_reverse_search_fallback": "https://app.arbitragehero.com/private/endpoint/api/",
       "arbitrage_website": "https://arbitragehero.com"
     },
-
     "auth_key": "ZmQxNmU2MjAtYmR4dC0xY2M0LTMxOWEtYzU1N242czFpYm9u",
-
     "domainMappings": {
-      "com": { "symbol": "$", "market": 1, "value": "US" },
-      "co.uk": { "symbol": "£", "market": 2, "value": "UK" },
-      "de": { "symbol": "€", "market": 3, "value": "DE" },
-      "fr": { "symbol": "€", "market": 4, "value": "FR" },
-      "co.jp": { "symbol": "¥", "market": 5, "value": "JP" },
-      "ca": { "symbol": "$", "market": 6, "value": "CA" },
-      "it": { "symbol": "€", "market": 8, "value": "IT" },
-      "es": { "symbol": "€", "market": 9, "value": "ES" },
-      "in": { "symbol": "₹", "market": 10, "value": "IN" }
+      "com": {
+        "symbol": "$",
+        "market": 1,
+        "value": "US"
+      },
+      "co.uk": {
+        "symbol": "£",
+        "market": 2,
+        "value": "UK"
+      },
+      "de": {
+        "symbol": "€",
+        "market": 3,
+        "value": "DE"
+      },
+      "fr": {
+        "symbol": "€",
+        "market": 4,
+        "value": "FR"
+      },
+      "co.jp": {
+        "symbol": "¥",
+        "market": 5,
+        "value": "JP"
+      },
+      "ca": {
+        "symbol": "$",
+        "market": 6,
+        "value": "CA"
+      },
+      "it": {
+        "symbol": "€",
+        "market": 8,
+        "value": "IT"
+      },
+      "es": {
+        "symbol": "€",
+        "market": 9,
+        "value": "ES"
+      },
+      "in": {
+        "symbol": "₹",
+        "market": 10,
+        "value": "IN"
+      }
     },
     "profitCalculatorCountryCodes": {
-      "US": { "countryCode": "US", "currency": "USD" },
-      "UK": { "countryCode": "GB", "currency": "GBP" }
+      "US": {
+        "countryCode": "US",
+        "currency": "USD"
+      },
+      "UK": {
+        "countryCode": "GB",
+        "currency": "GBP"
+      }
     },
     "US": {
       "marketplaceID": "ATVPDKIKX0DER",
@@ -11622,7 +12695,9 @@
         "list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
-        "list_page_subcontainer": [".a-section.a-spacing-small"],
+        "list_page_subcontainer": [".a-section.a-spacing-small", ".a-section"],
+        "list_page_title_selectors": ["h2 > a > span", "a > h2 > span"],
+        "list_page_no_result": ["//div[contains(@class, '-no-results')]"],
         "detail_page_subcontainer": ["//div[@id='rightCol']", "//div[contains(@class,'Col-bbcxoverride')]", "//div[@data-feature-name='desktop_buybox']", "//div[@id='desktop_buybox']"],
         "detail_page_middle_container": ["//div[@id = 'centerCol']//div[@id = 'title_feature_div']", "//div[@id = 'centerCol']//div[contains(@id , 'title') and contains(@id,'_feature_div')]"],
         "page_not_found": ["//img[contains(@src, '/error/') and @id = 'd']"],
@@ -11720,112 +12795,272 @@
         "dimensionalWeightDivider": 139,
         "outOfBoundLowFbaFee": 0.77,
         "isVatTax": false,
-
         "productTier": {
           "fba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small standard",
-
                 "conditions": [
-                  { "key": "unitWeight", "value": 1, "operator": "<=" },
-                  { "key": "longestSide", "value": 15, "operator": "<=" },
-                  { "key": "medianSide", "value": 12, "operator": "<=" },
-                  { "key": "shortestSide", "value": 0.75, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 12,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 0.75,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large standard",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 20, "operator": "<=" },
-                  { "key": "longestSide", "value": 18, "operator": "<=" },
-                  { "key": "medianSide", "value": 14, "operator": "<=" },
-                  { "key": "shortestSide", "value": 8, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 18,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 14,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 8,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large bulky Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-                  { "key": "longestSide", "value": 59, "operator": "<=" },
-                  { "key": "medianSide", "value": 33, "operator": "<=" },
-                  { "key": "shortestSide", "value": 33, "operator": "<=" },
-                  { "key": "lengthPlusGirth", "value": 130, "operator": "<=" }
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 59,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "lengthPlusGirth",
+                    "value": 130,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra-large 0 to 50 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 50+ to 70 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 50, "operator": ">" },
-                  { "key": "shippingWeight", "value": 70, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 50,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 70+ to 150 lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 70, "operator": ">" },
-                  { "key": "shippingWeight", "value": 150, "operator": "<=" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 70,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": "<="
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               },
               {
                 "tier": "Extra-large 150+ lb Oversize",
-
                 "conditions": [
-                  { "key": "shippingWeight", "value": 150, "operator": ">" },
-
+                  {
+                    "key": "shippingWeight",
+                    "value": 150,
+                    "operator": ">"
+                  },
                   {
                     "alternateConditions": [
-                      { "key": "longestSide", "value": 59, "operator": ">" },
-                      { "key": "medianSide", "value": 33, "operator": ">" },
-                      { "key": "shortestSide", "value": 33, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 130, "operator": ">" },
-                      { "key": "unitWeight", "value": 50, "operator": ">" },
-                      { "key": "dimensionalWeight", "value": 50, "operator": ">" }
+                      {
+                        "key": "longestSide",
+                        "value": 59,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "medianSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "shortestSide",
+                        "value": 33,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 130,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "unitWeight",
+                        "value": 50,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "dimensionalWeight",
+                        "value": 50,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
@@ -11834,7 +13069,112 @@
           },
           "lowFba": null
         },
-
+        "fbaInboundPlacementFee": {
+          "default": {
+            "fees": {
+              "minimum": 0,
+              "partial": 0,
+              "optimized": 0
+            }
+          },
+          "unitWeightTiers": ["Small standard"],
+          "Small standard": [
+            {
+              "minWeight": 0,
+              "maxWeight": 1,
+              "fees": {
+                "minimum": 0.3,
+                "partial": 0.21,
+                "optimized": 0
+              }
+            }
+          ],
+          "Large standard": [
+            {
+              "minWeight": 0,
+              "maxWeight": 0.75,
+              "fees": {
+                "minimum": 0.34,
+                "partial": 0.24,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 0.75,
+              "maxWeight": 1.5,
+              "fees": {
+                "minimum": 0.41,
+                "partial": 0.28,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 1.5,
+              "maxWeight": 3,
+              "fees": {
+                "minimum": 0.49,
+                "partial": 0.34,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 3,
+              "maxWeight": 20,
+              "fees": {
+                "minimum": 0.68,
+                "partial": 0.48,
+                "optimized": 0
+              }
+            }
+          ],
+          "Large bulky Oversize": [
+            {
+              "minWeight": 0,
+              "maxWeight": 5,
+              "fees": {
+                "minimum": 2.67,
+                "partial": 1.48,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 5,
+              "maxWeight": 12,
+              "fees": {
+                "minimum": 3.15,
+                "partial": 1.75,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 12,
+              "maxWeight": 28,
+              "fees": {
+                "minimum": 3.95,
+                "partial": 2.19,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 28,
+              "maxWeight": 42,
+              "fees": {
+                "minimum": 5.11,
+                "partial": 2.83,
+                "optimized": 0
+              }
+            },
+            {
+              "minWeight": 42,
+              "maxWeight": 50,
+              "fees": {
+                "minimum": 6,
+                "partial": 3.32,
+                "optimized": 0
+              }
+            }
+          ]
+        },
         "fba": {
           "apparel": {
             "weightDivision": {
@@ -12186,7 +13526,6 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFba": {
           "apparel": {
             "weightDivision": {
@@ -12538,12 +13877,10 @@
           },
           "unitWeightTiers": ["Small standard", "Extra-large 150+ lb Oversize"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<"
         },
-
         "extraFulfilment": [
           {
             "titleMatchKeyWords": ["Battery", "battery", "batteries", "Batteries", "Rechargeable", "rechargeable", "Wireless", "wireless"],
@@ -12553,9 +13890,19 @@
             "lowFbaFee": 0.11
           }
         ],
-
-        "storageFee": { "cubicFeetConversion": 1728, "ranges": { "standard": { "jan_sep": 0.87, "oct_dec": 2.4 }, "oversize": { "jan_sep": 0.56, "oct_dec": 1.4 } } },
-
+        "storageFee": {
+          "cubicFeetConversion": 1728,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.87,
+              "oct_dec": 2.4
+            },
+            "oversize": {
+              "jan_sep": 0.56,
+              "oct_dec": 1.4
+            }
+          }
+        },
         "closingFee": [
           {
             "feeValue": 1.8,
@@ -12593,7 +13940,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -14462,7 +15808,6 @@
                   {
                     "min": 0,
                     "max": 100,
-
                     "percentage": 15
                   },
                   {
@@ -14777,7 +16122,6 @@
                 ]
               }
             ],
-
             "minReferral": 0.3
           }
         }
@@ -14795,7 +16139,6 @@
         "Footwear"
       ],
       "portionCategories": ["Compact Appliances", "Electronics Accessories", "Fine Art", "Furniture", "Jewelry", "Watches"],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
@@ -14890,14 +16233,15 @@
         "Video Games and Gaming Accessories"
       ]
     },
-
     "UK": {
       "marketplaceID": "A1F83G8C2ARO7P",
       "xPaths": {
         "list_page_container": ["//div[@data-component-type='s-search-result']", "//div[contains(@data-component-type, 'search-result')]", "//ol[@class = 'a-carousel']/li"],
         "list_page_grid_container": ["//div[contains(@data-uuid,'searchgrid-carousel')]"],
         "detail_page_asin": ["//th[contains(text(),'ASIN')]/following-sibling::td/text()", "//span[contains(text(),'ASIN')]/following-sibling::span"],
-        "list_page_subcontainer": [".a-section.a-spacing-small"],
+        "list_page_subcontainer": [".a-section.a-spacing-small", ".a-section"],
+        "list_page_title_selectors": ["h2 > a > span", "a > h2 > span"],
+        "list_page_no_result": ["//div[contains(@class, '-no-results')]"],
         "detail_page_subcontainer": ["//div[@id='rightCol']", "//div[contains(@class,'Col-bbcxoverride')]", "//div[@data-feature-name='desktop_buybox']", "//div[@id='desktop_buybox']"],
         "detail_page_middle_container": ["//div[@id = 'centerCol']//div[@id = 'title_feature_div']", "//div[@id = 'centerCol']//div[contains(@id , 'title') and contains(@id,'_feature_div')]"],
         "page_not_found": ["//img[contains(@src, '/error/') and @id = 'd']"],
@@ -14997,7 +16341,6 @@
         "isVatTax": true,
         "vatFlatRate": 11,
         "vatTax": 20,
-
         "productTier": {
           "fba": {
             "defaultTier": "Special Oversize",
@@ -15005,85 +16348,241 @@
               {
                 "tier": "Small Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.08, "operator": "<=" },
-                  { "key": "longestSide", "value": 20, "operator": "<=" },
-                  { "key": "medianSide", "value": 15, "operator": "<=" },
-                  { "key": "shortestSide", "value": 1, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.08,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 1,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.46, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 4, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 4,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 6, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 6,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 3.9, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 3.9,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 11.9, "operator": "<=" },
-                  { "key": "longestSide", "value": 45, "operator": "<=" },
-                  { "key": "medianSide", "value": 34, "operator": "<=" },
-                  { "key": "shortestSide", "value": 26, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 11.9,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 45,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 34,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 26,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 1.76, "operator": "<=" },
-                  { "key": "dimensionalWeight", "value": 25.82, "operator": "<=" },
-                  { "key": "longestSide", "value": 61, "operator": "<=" },
-                  { "key": "medianSide", "value": 46, "operator": "<=" },
-                  { "key": "shortestSide", "value": 46, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 1.76,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "dimensionalWeight",
+                    "value": 25.82,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 61,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 46,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 29.76, "operator": "<=" },
-                  { "key": "dimensionalWeight", "value": 86.4, "operator": "<=" },
-                  { "key": "longestSide", "value": 120, "operator": "<=" },
-                  { "key": "medianSide", "value": 60, "operator": "<=" },
-                  { "key": "shortestSide", "value": 60, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 29.76,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "dimensionalWeight",
+                    "value": 86.4,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 120,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 60,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 60,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Oversize",
                 "conditions": [
-                  { "key": "unitWeight", "value": 31.5, "operator": "<=" },
-                  { "key": "longestSide", "value": 120, "operator": ">" },
-                  { "key": "longestSide", "value": 175, "operator": "<=" },
-                  { "key": "medianSide", "value": 60, "operator": ">" },
-                  { "key": "shortestSide", "value": 60, "operator": ">" }
+                  {
+                    "key": "unitWeight",
+                    "value": 31.5,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 120,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 175,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 60,
+                    "operator": ">"
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 60,
+                    "operator": ">"
+                  }
                 ]
               },
               {
@@ -15091,95 +16590,234 @@
                 "conditions": [
                   {
                     "alternateConditions": [
-                      { "key": "unitWeight", "value": 31.5, "operator": ">" },
-                      { "key": "longestSide", "value": 175, "operator": ">" },
-                      { "key": "lengthPlusGirth", "value": 360, "operator": ">" }
+                      {
+                        "key": "unitWeight",
+                        "value": 31.5,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "longestSide",
+                        "value": 175,
+                        "operator": ">"
+                      },
+                      {
+                        "key": "lengthPlusGirth",
+                        "value": 360,
+                        "operator": ">"
+                      }
                     ]
                   }
                 ]
               }
             ]
           },
-
           "lowFba": {
             "defaultTier": "N/A",
             "tierConditions": [
               {
                 "tier": "Small Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.08, "operator": "<=" },
-                  { "key": "longestSide", "value": 20, "operator": "<=" },
-                  { "key": "medianSide", "value": 15, "operator": "<=" },
-                  { "key": "shortestSide", "value": 1, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.08,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 20,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 1,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.06, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.06,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.21, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.21,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Standard Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.46, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 2.5, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.46,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 2.5,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 4, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 4,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Extra Large Envelope",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.96, "operator": "<=" },
-                  { "key": "longestSide", "value": 33, "operator": "<=" },
-                  { "key": "medianSide", "value": 23, "operator": "<=" },
-                  { "key": "shortestSide", "value": 6, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.96,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 33,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 23,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 6,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.15, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.15,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               },
               {
                 "tier": "Small Parcel",
                 "conditions": [
-                  { "key": "unitWeight", "value": 0.4, "operator": "<=" },
-                  { "key": "longestSide", "value": 35, "operator": "<=" },
-                  { "key": "medianSide", "value": 25, "operator": "<=" },
-                  { "key": "shortestSide", "value": 12, "operator": "<=" }
+                  {
+                    "key": "unitWeight",
+                    "value": 0.4,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "longestSide",
+                    "value": 35,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "medianSide",
+                    "value": 25,
+                    "operator": "<="
+                  },
+                  {
+                    "key": "shortestSide",
+                    "value": 12,
+                    "operator": "<="
+                  }
                 ]
               }
             ]
           }
         },
-
+        "fbaInboundPlacementFee": {},
         "fba": {
           "normal": {
             "weightDivision": {
@@ -15382,7 +17020,6 @@
                 "extraWeightLimit": "1.76"
               }
             ],
-
             "Standard Oversize": [
               {
                 "minWeight": "0",
@@ -15513,7 +17150,6 @@
                 "extraWeightLimit": "31.50"
               }
             ],
-
             "Special Oversize": [
               {
                 "minWeight": "0",
@@ -15559,10 +17195,8 @@
               }
             ]
           },
-
           "unitWeightTiers": ["Small Envelope", "Standard Envelope", "Large Envelope", "Extra Large Envelope", "Special Oversize"]
         },
-
         "lowFba": {
           "normal": {
             "weightDivision": {
@@ -15638,17 +17272,29 @@
           },
           "unitWeightTiers": ["Small Envelope", "Standard Envelope", "Large Envelope", "Extra Large Envelope", "Small Parcel"]
         },
-
         "lowFbaCheck": {
           "salePriceCheck": 10,
           "operator": "<="
         },
-
         "extraFulfilment": [],
-
-        "storageFee": { "cubicFeetConversion": 28316.8, "ranges": { "standard": { "jan_sep": 0.78, "oct_dec": 1.1 }, "oversize": { "jan_sep": 0.46, "oct_dec": 0.64 } } },
+        "storageFee": {
+          "cubicFeetConversion": 28316.8,
+          "ranges": {
+            "standard": {
+              "jan_sep": 0.78,
+              "oct_dec": 1.1
+            },
+            "oversize": {
+              "jan_sep": 0.46,
+              "oct_dec": 0.64
+            }
+          }
+        },
         "closingFee": [
-          { "feeValue": 1, "categories": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"] },
+          {
+            "feeValue": 1,
+            "categories": ["Books", "Kindle Books", "Kindle Unlimited", "Prime Reading", "Children's Book", "Textbooks"]
+          },
           {
             "feeValue": 0.5,
             "categories": [
@@ -15685,7 +17331,6 @@
             ]
           }
         ],
-
         "referralFee": {
           "Amazon Device Accessories": {
             "feesArray": [
@@ -17348,7 +18993,6 @@
         "Jewellery",
         "Watches"
       ],
-
       "nonPortionCategories": [
         "All Computers & Accessories",
         "All PC & Mac Software",
